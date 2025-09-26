@@ -1,0 +1,55 @@
+{
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "eb132cdc-e265-4977-bbd2-4b35d1ed9301",
+        "name": "REST API",
+        "designId": "c3cba612-1031-4cce-960a-78d54826c711",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
+    "29809245-a5ea-4687-af79-952998abab22": {
+        "id": "da0a1cf6-b73c-40e5-a00c-eee3a049ee9c",
+        "name": "Airtable",
+        "designId": "c3cba612-1031-4cce-960a-78d54826c711",
+        "pluginId": "29809245-a5ea-4687-af79-952998abab22",
+        "publicData": {}
+    },
+    "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
+        "id": "65dbc68a-2809-413f-89f8-71a7aa3d33d8",
+        "name": "Date",
+        "designId": "c3cba612-1031-4cce-960a-78d54826c711",
+        "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
+        "publicData": {
+            "favoriteFormat": "DD/MM/YYYY"
+        }
+    },
+    "cd33cf33-e29f-4e8c-ac26-b997fe507ce7": {
+        "id": "7dd480d0-532e-41f1-b691-a19c74905e3a",
+        "name": "Xano",
+        "designId": "c3cba612-1031-4cce-960a-78d54826c711",
+        "pluginId": "cd33cf33-e29f-4e8c-ac26-b997fe507ce7",
+        "publicData": {
+            "domain": "xpdt-i518-xwhx.p7.xano.io"
+        }
+    },
+    "f5856798-485d-47be-b433-d43d771c64e1": {
+        "id": "206e51d0-8b53-4f5e-a87a-c2385a6c418c",
+        "name": "Xano Auth",
+        "designId": "c3cba612-1031-4cce-960a-78d54826c711",
+        "pluginId": "f5856798-485d-47be-b433-d43d771c64e1",
+        "publicData": {
+            "domain": "xpdt-i518-xwhx.p7.xano.io",
+            "getMeEndpoint": "https://xpdt-i518-xwhx.p7.xano.io/api:5Ip9YB68/auth/me",
+            "loginEndpoint": "https://xpdt-i518-xwhx.p7.xano.io/api:5Ip9YB68/auth/login",
+            "signupEndpoint": "https://xpdt-i518-xwhx.p7.xano.io/api:5Ip9YB68/auth/signup",
+            "socialProviders": {
+                "google-oauth": {
+                    "id": 4,
+                    "api": "https://xpdt-i518-xwhx.p7.xano.io/api:U0aE1wpF",
+                    "name": "google-oauth"
+                }
+            },
+            "afterForbiddenPageId": "54c8452f-dc3a-4beb-a8b9-cb297aa4a177",
+            "afterNotSignInPageId": "54c8452f-dc3a-4beb-a8b9-cb297aa4a177"
+        }
+    }
+}

@@ -1,0 +1,3 @@
+User-agent:*
+Disallow:
+Sitemap: https://app.xtensio.eu/sitemap.xml

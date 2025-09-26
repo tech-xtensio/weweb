@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(bb726e8d-16df-484c-9daa-250f405e5752.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(37accd16-5da9-4441-a473-e559d7165f12.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(9c48b1db-a124-427e-b08b-582b68bd540c.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(f1d546f3-786d-4c11-a2f3-1ea9e75cf0e8.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(a529f389-37c9-4899-8f29-05aee0910ba3.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(04b237cb-3f95-4ae8-8744-590ed59e2489.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(ccbca48f-f391-4044-8987-441f530cc1f1.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(76bb93e6-2486-45f9-8264-8a36cea8ed6d.otf) format('truetype');
+}

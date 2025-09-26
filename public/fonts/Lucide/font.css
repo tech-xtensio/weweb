@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: 'Lucide';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(67404759-a1ec-4b48-a4b4-b9ae8e125188.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lucide';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(0b60f5f5-8801-4613-a86a-b9990efa57ef.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Lucide';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(a6bb7206-1912-4fc6-b814-e458a6d4747b.woff2) format('woff2');
+}

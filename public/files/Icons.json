@@ -1,0 +1,6042 @@
+[
+  {
+    "name": "a-arrow-down",
+    "class": "icon-a-arrow-down"
+  },
+  {
+    "name": "a-arrow-up",
+    "class": "icon-a-arrow-up"
+  },
+  {
+    "name": "a-large-small",
+    "class": "icon-a-large-small"
+  },
+  {
+    "name": "accessibility",
+    "class": "icon-accessibility"
+  },
+  {
+    "name": "activity",
+    "class": "icon-activity"
+  },
+  {
+    "name": "air-vent",
+    "class": "icon-air-vent"
+  },
+  {
+    "name": "airplay",
+    "class": "icon-airplay"
+  },
+  {
+    "name": "alarm-clock-check",
+    "class": "icon-alarm-clock-check"
+  },
+  {
+    "name": "alarm-clock-minus",
+    "class": "icon-alarm-clock-minus"
+  },
+  {
+    "name": "alarm-clock-off",
+    "class": "icon-alarm-clock-off"
+  },
+  {
+    "name": "alarm-clock-plus",
+    "class": "icon-alarm-clock-plus"
+  },
+  {
+    "name": "alarm-clock",
+    "class": "icon-alarm-clock"
+  },
+  {
+    "name": "alarm-smoke",
+    "class": "icon-alarm-smoke"
+  },
+  {
+    "name": "album",
+    "class": "icon-album"
+  },
+  {
+    "name": "align-center-horizontal",
+    "class": "icon-align-center-horizontal"
+  },
+  {
+    "name": "align-center-vertical",
+    "class": "icon-align-center-vertical"
+  },
+  {
+    "name": "align-center",
+    "class": "icon-align-center"
+  },
+  {
+    "name": "align-end-horizontal",
+    "class": "icon-align-end-horizontal"
+  },
+  {
+    "name": "align-end-vertical",
+    "class": "icon-align-end-vertical"
+  },
+  {
+    "name": "align-horizontal-distribute-center",
+    "class": "icon-align-horizontal-distribute-center"
+  },
+  {
+    "name": "align-horizontal-distribute-end",
+    "class": "icon-align-horizontal-distribute-end"
+  },
+  {
+    "name": "align-horizontal-distribute-start",
+    "class": "icon-align-horizontal-distribute-start"
+  },
+  {
+    "name": "align-horizontal-justify-center",
+    "class": "icon-align-horizontal-justify-center"
+  },
+  {
+    "name": "align-horizontal-justify-end",
+    "class": "icon-align-horizontal-justify-end"
+  },
+  {
+    "name": "align-horizontal-justify-start",
+    "class": "icon-align-horizontal-justify-start"
+  },
+  {
+    "name": "align-horizontal-space-around",
+    "class": "icon-align-horizontal-space-around"
+  },
+  {
+    "name": "align-horizontal-space-between",
+    "class": "icon-align-horizontal-space-between"
+  },
+  {
+    "name": "align-justify",
+    "class": "icon-align-justify"
+  },
+  {
+    "name": "align-left",
+    "class": "icon-align-left"
+  },
+  {
+    "name": "align-right",
+    "class": "icon-align-right"
+  },
+  {
+    "name": "align-start-horizontal",
+    "class": "icon-align-start-horizontal"
+  },
+  {
+    "name": "align-start-vertical",
+    "class": "icon-align-start-vertical"
+  },
+  {
+    "name": "align-vertical-distribute-center",
+    "class": "icon-align-vertical-distribute-center"
+  },
+  {
+    "name": "align-vertical-distribute-end",
+    "class": "icon-align-vertical-distribute-end"
+  },
+  {
+    "name": "align-vertical-distribute-start",
+    "class": "icon-align-vertical-distribute-start"
+  },
+  {
+    "name": "align-vertical-justify-center",
+    "class": "icon-align-vertical-justify-center"
+  },
+  {
+    "name": "align-vertical-justify-end",
+    "class": "icon-align-vertical-justify-end"
+  },
+  {
+    "name": "align-vertical-justify-start",
+    "class": "icon-align-vertical-justify-start"
+  },
+  {
+    "name": "align-vertical-space-around",
+    "class": "icon-align-vertical-space-around"
+  },
+  {
+    "name": "align-vertical-space-between",
+    "class": "icon-align-vertical-space-between"
+  },
+  {
+    "name": "ambulance",
+    "class": "icon-ambulance"
+  },
+  {
+    "name": "ampersand",
+    "class": "icon-ampersand"
+  },
+  {
+    "name": "ampersands",
+    "class": "icon-ampersands"
+  },
+  {
+    "name": "anchor",
+    "class": "icon-anchor"
+  },
+  {
+    "name": "angry",
+    "class": "icon-angry"
+  },
+  {
+    "name": "annoyed",
+    "class": "icon-annoyed"
+  },
+  {
+    "name": "antenna",
+    "class": "icon-antenna"
+  },
+  {
+    "name": "anvil",
+    "class": "icon-anvil"
+  },
+  {
+    "name": "aperture",
+    "class": "icon-aperture"
+  },
+  {
+    "name": "app-window-mac",
+    "class": "icon-app-window-mac"
+  },
+  {
+    "name": "app-window",
+    "class": "icon-app-window"
+  },
+  {
+    "name": "apple",
+    "class": "icon-apple"
+  },
+  {
+    "name": "archive-restore",
+    "class": "icon-archive-restore"
+  },
+  {
+    "name": "archive-x",
+    "class": "icon-archive-x"
+  },
+  {
+    "name": "archive",
+    "class": "icon-archive"
+  },
+  {
+    "name": "armchair",
+    "class": "icon-armchair"
+  },
+  {
+    "name": "arrow-big-down-dash",
+    "class": "icon-arrow-big-down-dash"
+  },
+  {
+    "name": "arrow-big-down",
+    "class": "icon-arrow-big-down"
+  },
+  {
+    "name": "arrow-big-left-dash",
+    "class": "icon-arrow-big-left-dash"
+  },
+  {
+    "name": "arrow-big-left",
+    "class": "icon-arrow-big-left"
+  },
+  {
+    "name": "arrow-big-right-dash",
+    "class": "icon-arrow-big-right-dash"
+  },
+  {
+    "name": "arrow-big-right",
+    "class": "icon-arrow-big-right"
+  },
+  {
+    "name": "arrow-big-up-dash",
+    "class": "icon-arrow-big-up-dash"
+  },
+  {
+    "name": "arrow-big-up",
+    "class": "icon-arrow-big-up"
+  },
+  {
+    "name": "arrow-down-0-1",
+    "class": "icon-arrow-down-0-1"
+  },
+  {
+    "name": "arrow-down-1-0",
+    "class": "icon-arrow-down-1-0"
+  },
+  {
+    "name": "arrow-down-a-z",
+    "class": "icon-arrow-down-a-z"
+  },
+  {
+    "name": "arrow-down-from-line",
+    "class": "icon-arrow-down-from-line"
+  },
+  {
+    "name": "arrow-down-left",
+    "class": "icon-arrow-down-left"
+  },
+  {
+    "name": "arrow-down-narrow-wide",
+    "class": "icon-arrow-down-narrow-wide"
+  },
+  {
+    "name": "arrow-down-right",
+    "class": "icon-arrow-down-right"
+  },
+  {
+    "name": "arrow-down-to-dot",
+    "class": "icon-arrow-down-to-dot"
+  },
+  {
+    "name": "arrow-down-to-line",
+    "class": "icon-arrow-down-to-line"
+  },
+  {
+    "name": "arrow-down-up",
+    "class": "icon-arrow-down-up"
+  },
+  {
+    "name": "arrow-down-wide-narrow",
+    "class": "icon-arrow-down-wide-narrow"
+  },
+  {
+    "name": "arrow-down-z-a",
+    "class": "icon-arrow-down-z-a"
+  },
+  {
+    "name": "arrow-down",
+    "class": "icon-arrow-down"
+  },
+  {
+    "name": "arrow-left-from-line",
+    "class": "icon-arrow-left-from-line"
+  },
+  {
+    "name": "arrow-left-right",
+    "class": "icon-arrow-left-right"
+  },
+  {
+    "name": "arrow-left-to-line",
+    "class": "icon-arrow-left-to-line"
+  },
+  {
+    "name": "arrow-left",
+    "class": "icon-arrow-left"
+  },
+  {
+    "name": "arrow-right-from-line",
+    "class": "icon-arrow-right-from-line"
+  },
+  {
+    "name": "arrow-right-left",
+    "class": "icon-arrow-right-left"
+  },
+  {
+    "name": "arrow-right-to-line",
+    "class": "icon-arrow-right-to-line"
+  },
+  {
+    "name": "arrow-right",
+    "class": "icon-arrow-right"
+  },
+  {
+    "name": "arrow-up-0-1",
+    "class": "icon-arrow-up-0-1"
+  },
+  {
+    "name": "arrow-up-1-0",
+    "class": "icon-arrow-up-1-0"
+  },
+  {
+    "name": "arrow-up-a-z",
+    "class": "icon-arrow-up-a-z"
+  },
+  {
+    "name": "arrow-up-down",
+    "class": "icon-arrow-up-down"
+  },
+  {
+    "name": "arrow-up-from-dot",
+    "class": "icon-arrow-up-from-dot"
+  },
+  {
+    "name": "arrow-up-from-line",
+    "class": "icon-arrow-up-from-line"
+  },
+  {
+    "name": "arrow-up-left",
+    "class": "icon-arrow-up-left"
+  },
+  {
+    "name": "arrow-up-narrow-wide",
+    "class": "icon-arrow-up-narrow-wide"
+  },
+  {
+    "name": "arrow-up-right",
+    "class": "icon-arrow-up-right"
+  },
+  {
+    "name": "arrow-up-to-line",
+    "class": "icon-arrow-up-to-line"
+  },
+  {
+    "name": "arrow-up-wide-narrow",
+    "class": "icon-arrow-up-wide-narrow"
+  },
+  {
+    "name": "arrow-up-z-a",
+    "class": "icon-arrow-up-z-a"
+  },
+  {
+    "name": "arrow-up",
+    "class": "icon-arrow-up"
+  },
+  {
+    "name": "arrows-up-from-line",
+    "class": "icon-arrows-up-from-line"
+  },
+  {
+    "name": "asterisk",
+    "class": "icon-asterisk"
+  },
+  {
+    "name": "at-sign",
+    "class": "icon-at-sign"
+  },
+  {
+    "name": "atom",
+    "class": "icon-atom"
+  },
+  {
+    "name": "audio-lines",
+    "class": "icon-audio-lines"
+  },
+  {
+    "name": "audio-waveform",
+    "class": "icon-audio-waveform"
+  },
+  {
+    "name": "award",
+    "class": "icon-award"
+  },
+  {
+    "name": "axe",
+    "class": "icon-axe"
+  },
+  {
+    "name": "axis-3d",
+    "class": "icon-axis-3d"
+  },
+  {
+    "name": "baby",
+    "class": "icon-baby"
+  },
+  {
+    "name": "backpack",
+    "class": "icon-backpack"
+  },
+  {
+    "name": "badge-alert",
+    "class": "icon-badge-alert"
+  },
+  {
+    "name": "badge-cent",
+    "class": "icon-badge-cent"
+  },
+  {
+    "name": "badge-check",
+    "class": "icon-badge-check"
+  },
+  {
+    "name": "badge-dollar-sign",
+    "class": "icon-badge-dollar-sign"
+  },
+  {
+    "name": "badge-euro",
+    "class": "icon-badge-euro"
+  },
+  {
+    "name": "badge-help",
+    "class": "icon-badge-help"
+  },
+  {
+    "name": "badge-indian-rupee",
+    "class": "icon-badge-indian-rupee"
+  },
+  {
+    "name": "badge-info",
+    "class": "icon-badge-info"
+  },
+  {
+    "name": "badge-japanese-yen",
+    "class": "icon-badge-japanese-yen"
+  },
+  {
+    "name": "badge-minus",
+    "class": "icon-badge-minus"
+  },
+  {
+    "name": "badge-percent",
+    "class": "icon-badge-percent"
+  },
+  {
+    "name": "badge-plus",
+    "class": "icon-badge-plus"
+  },
+  {
+    "name": "badge-pound-sterling",
+    "class": "icon-badge-pound-sterling"
+  },
+  {
+    "name": "badge-russian-ruble",
+    "class": "icon-badge-russian-ruble"
+  },
+  {
+    "name": "badge-swiss-franc",
+    "class": "icon-badge-swiss-franc"
+  },
+  {
+    "name": "badge-x",
+    "class": "icon-badge-x"
+  },
+  {
+    "name": "badge",
+    "class": "icon-badge"
+  },
+  {
+    "name": "baggage-claim",
+    "class": "icon-baggage-claim"
+  },
+  {
+    "name": "ban",
+    "class": "icon-ban"
+  },
+  {
+    "name": "banana",
+    "class": "icon-banana"
+  },
+  {
+    "name": "banknote",
+    "class": "icon-banknote"
+  },
+  {
+    "name": "barcode",
+    "class": "icon-barcode"
+  },
+  {
+    "name": "baseline",
+    "class": "icon-baseline"
+  },
+  {
+    "name": "bath",
+    "class": "icon-bath"
+  },
+  {
+    "name": "battery-charging",
+    "class": "icon-battery-charging"
+  },
+  {
+    "name": "battery-full",
+    "class": "icon-battery-full"
+  },
+  {
+    "name": "battery-low",
+    "class": "icon-battery-low"
+  },
+  {
+    "name": "battery-medium",
+    "class": "icon-battery-medium"
+  },
+  {
+    "name": "battery-warning",
+    "class": "icon-battery-warning"
+  },
+  {
+    "name": "battery",
+    "class": "icon-battery"
+  },
+  {
+    "name": "beaker",
+    "class": "icon-beaker"
+  },
+  {
+    "name": "bean-off",
+    "class": "icon-bean-off"
+  },
+  {
+    "name": "bean",
+    "class": "icon-bean"
+  },
+  {
+    "name": "bed-double",
+    "class": "icon-bed-double"
+  },
+  {
+    "name": "bed-single",
+    "class": "icon-bed-single"
+  },
+  {
+    "name": "bed",
+    "class": "icon-bed"
+  },
+  {
+    "name": "beef",
+    "class": "icon-beef"
+  },
+  {
+    "name": "beer-off",
+    "class": "icon-beer-off"
+  },
+  {
+    "name": "beer",
+    "class": "icon-beer"
+  },
+  {
+    "name": "bell-dot",
+    "class": "icon-bell-dot"
+  },
+  {
+    "name": "bell-electric",
+    "class": "icon-bell-electric"
+  },
+  {
+    "name": "bell-minus",
+    "class": "icon-bell-minus"
+  },
+  {
+    "name": "bell-off",
+    "class": "icon-bell-off"
+  },
+  {
+    "name": "bell-plus",
+    "class": "icon-bell-plus"
+  },
+  {
+    "name": "bell-ring",
+    "class": "icon-bell-ring"
+  },
+  {
+    "name": "bell",
+    "class": "icon-bell"
+  },
+  {
+    "name": "between-horizontal-end",
+    "class": "icon-between-horizontal-end"
+  },
+  {
+    "name": "between-horizontal-start",
+    "class": "icon-between-horizontal-start"
+  },
+  {
+    "name": "between-vertical-end",
+    "class": "icon-between-vertical-end"
+  },
+  {
+    "name": "between-vertical-start",
+    "class": "icon-between-vertical-start"
+  },
+  {
+    "name": "biceps-flexed",
+    "class": "icon-biceps-flexed"
+  },
+  {
+    "name": "bike",
+    "class": "icon-bike"
+  },
+  {
+    "name": "binary",
+    "class": "icon-binary"
+  },
+  {
+    "name": "biohazard",
+    "class": "icon-biohazard"
+  },
+  {
+    "name": "bird",
+    "class": "icon-bird"
+  },
+  {
+    "name": "bitcoin",
+    "class": "icon-bitcoin"
+  },
+  {
+    "name": "blend",
+    "class": "icon-blend"
+  },
+  {
+    "name": "blinds",
+    "class": "icon-blinds"
+  },
+  {
+    "name": "blocks",
+    "class": "icon-blocks"
+  },
+  {
+    "name": "bluetooth-connected",
+    "class": "icon-bluetooth-connected"
+  },
+  {
+    "name": "bluetooth-off",
+    "class": "icon-bluetooth-off"
+  },
+  {
+    "name": "bluetooth-searching",
+    "class": "icon-bluetooth-searching"
+  },
+  {
+    "name": "bluetooth",
+    "class": "icon-bluetooth"
+  },
+  {
+    "name": "bold",
+    "class": "icon-bold"
+  },
+  {
+    "name": "bolt",
+    "class": "icon-bolt"
+  },
+  {
+    "name": "bomb",
+    "class": "icon-bomb"
+  },
+  {
+    "name": "bone",
+    "class": "icon-bone"
+  },
+  {
+    "name": "book-a",
+    "class": "icon-book-a"
+  },
+  {
+    "name": "book-audio",
+    "class": "icon-book-audio"
+  },
+  {
+    "name": "book-check",
+    "class": "icon-book-check"
+  },
+  {
+    "name": "book-copy",
+    "class": "icon-book-copy"
+  },
+  {
+    "name": "book-dashed",
+    "class": "icon-book-dashed"
+  },
+  {
+    "name": "book-down",
+    "class": "icon-book-down"
+  },
+  {
+    "name": "book-headphones",
+    "class": "icon-book-headphones"
+  },
+  {
+    "name": "book-heart",
+    "class": "icon-book-heart"
+  },
+  {
+    "name": "book-image",
+    "class": "icon-book-image"
+  },
+  {
+    "name": "book-key",
+    "class": "icon-book-key"
+  },
+  {
+    "name": "book-lock",
+    "class": "icon-book-lock"
+  },
+  {
+    "name": "book-marked",
+    "class": "icon-book-marked"
+  },
+  {
+    "name": "book-minus",
+    "class": "icon-book-minus"
+  },
+  {
+    "name": "book-open-check",
+    "class": "icon-book-open-check"
+  },
+  {
+    "name": "book-open-text",
+    "class": "icon-book-open-text"
+  },
+  {
+    "name": "book-open",
+    "class": "icon-book-open"
+  },
+  {
+    "name": "book-plus",
+    "class": "icon-book-plus"
+  },
+  {
+    "name": "book-text",
+    "class": "icon-book-text"
+  },
+  {
+    "name": "book-type",
+    "class": "icon-book-type"
+  },
+  {
+    "name": "book-up-2",
+    "class": "icon-book-up-2"
+  },
+  {
+    "name": "book-up",
+    "class": "icon-book-up"
+  },
+  {
+    "name": "book-user",
+    "class": "icon-book-user"
+  },
+  {
+    "name": "book-x",
+    "class": "icon-book-x"
+  },
+  {
+    "name": "book",
+    "class": "icon-book"
+  },
+  {
+    "name": "bookmark-check",
+    "class": "icon-bookmark-check"
+  },
+  {
+    "name": "bookmark-minus",
+    "class": "icon-bookmark-minus"
+  },
+  {
+    "name": "bookmark-plus",
+    "class": "icon-bookmark-plus"
+  },
+  {
+    "name": "bookmark-x",
+    "class": "icon-bookmark-x"
+  },
+  {
+    "name": "bookmark",
+    "class": "icon-bookmark"
+  },
+  {
+    "name": "boom-box",
+    "class": "icon-boom-box"
+  },
+  {
+    "name": "bot-message-square",
+    "class": "icon-bot-message-square"
+  },
+  {
+    "name": "bot-off",
+    "class": "icon-bot-off"
+  },
+  {
+    "name": "bot",
+    "class": "icon-bot"
+  },
+  {
+    "name": "box-select",
+    "class": "icon-box-select"
+  },
+  {
+    "name": "box",
+    "class": "icon-box"
+  },
+  {
+    "name": "boxes",
+    "class": "icon-boxes"
+  },
+  {
+    "name": "braces",
+    "class": "icon-braces"
+  },
+  {
+    "name": "brackets",
+    "class": "icon-brackets"
+  },
+  {
+    "name": "brain-circuit",
+    "class": "icon-brain-circuit"
+  },
+  {
+    "name": "brain-cog",
+    "class": "icon-brain-cog"
+  },
+  {
+    "name": "brain",
+    "class": "icon-brain"
+  },
+  {
+    "name": "brick-wall",
+    "class": "icon-brick-wall"
+  },
+  {
+    "name": "briefcase-business",
+    "class": "icon-briefcase-business"
+  },
+  {
+    "name": "briefcase-medical",
+    "class": "icon-briefcase-medical"
+  },
+  {
+    "name": "briefcase",
+    "class": "icon-briefcase"
+  },
+  {
+    "name": "bring-to-front",
+    "class": "icon-bring-to-front"
+  },
+  {
+    "name": "brush",
+    "class": "icon-brush"
+  },
+  {
+    "name": "bug-off",
+    "class": "icon-bug-off"
+  },
+  {
+    "name": "bug-play",
+    "class": "icon-bug-play"
+  },
+  {
+    "name": "bug",
+    "class": "icon-bug"
+  },
+  {
+    "name": "building-2",
+    "class": "icon-building-2"
+  },
+  {
+    "name": "building",
+    "class": "icon-building"
+  },
+  {
+    "name": "bus-front",
+    "class": "icon-bus-front"
+  },
+  {
+    "name": "bus",
+    "class": "icon-bus"
+  },
+  {
+    "name": "cable-car",
+    "class": "icon-cable-car"
+  },
+  {
+    "name": "cable",
+    "class": "icon-cable"
+  },
+  {
+    "name": "cake-slice",
+    "class": "icon-cake-slice"
+  },
+  {
+    "name": "cake",
+    "class": "icon-cake"
+  },
+  {
+    "name": "calculator",
+    "class": "icon-calculator"
+  },
+  {
+    "name": "calendar-arrow-down",
+    "class": "icon-calendar-arrow-down"
+  },
+  {
+    "name": "calendar-arrow-up",
+    "class": "icon-calendar-arrow-up"
+  },
+  {
+    "name": "calendar-check-2",
+    "class": "icon-calendar-check-2"
+  },
+  {
+    "name": "calendar-check",
+    "class": "icon-calendar-check"
+  },
+  {
+    "name": "calendar-clock",
+    "class": "icon-calendar-clock"
+  },
+  {
+    "name": "calendar-cog",
+    "class": "icon-calendar-cog"
+  },
+  {
+    "name": "calendar-days",
+    "class": "icon-calendar-days"
+  },
+  {
+    "name": "calendar-fold",
+    "class": "icon-calendar-fold"
+  },
+  {
+    "name": "calendar-heart",
+    "class": "icon-calendar-heart"
+  },
+  {
+    "name": "calendar-minus-2",
+    "class": "icon-calendar-minus-2"
+  },
+  {
+    "name": "calendar-minus",
+    "class": "icon-calendar-minus"
+  },
+  {
+    "name": "calendar-off",
+    "class": "icon-calendar-off"
+  },
+  {
+    "name": "calendar-plus-2",
+    "class": "icon-calendar-plus-2"
+  },
+  {
+    "name": "calendar-plus",
+    "class": "icon-calendar-plus"
+  },
+  {
+    "name": "calendar-range",
+    "class": "icon-calendar-range"
+  },
+  {
+    "name": "calendar-search",
+    "class": "icon-calendar-search"
+  },
+  {
+    "name": "calendar-x-2",
+    "class": "icon-calendar-x-2"
+  },
+  {
+    "name": "calendar-x",
+    "class": "icon-calendar-x"
+  },
+  {
+    "name": "calendar",
+    "class": "icon-calendar"
+  },
+  {
+    "name": "camera-off",
+    "class": "icon-camera-off"
+  },
+  {
+    "name": "camera",
+    "class": "icon-camera"
+  },
+  {
+    "name": "candy-cane",
+    "class": "icon-candy-cane"
+  },
+  {
+    "name": "candy-off",
+    "class": "icon-candy-off"
+  },
+  {
+    "name": "candy",
+    "class": "icon-candy"
+  },
+  {
+    "name": "cannabis",
+    "class": "icon-cannabis"
+  },
+  {
+    "name": "captions-off",
+    "class": "icon-captions-off"
+  },
+  {
+    "name": "captions",
+    "class": "icon-captions"
+  },
+  {
+    "name": "car-front",
+    "class": "icon-car-front"
+  },
+  {
+    "name": "car-taxi-front",
+    "class": "icon-car-taxi-front"
+  },
+  {
+    "name": "car",
+    "class": "icon-car"
+  },
+  {
+    "name": "caravan",
+    "class": "icon-caravan"
+  },
+  {
+    "name": "carrot",
+    "class": "icon-carrot"
+  },
+  {
+    "name": "case-lower",
+    "class": "icon-case-lower"
+  },
+  {
+    "name": "case-sensitive",
+    "class": "icon-case-sensitive"
+  },
+  {
+    "name": "case-upper",
+    "class": "icon-case-upper"
+  },
+  {
+    "name": "cassette-tape",
+    "class": "icon-cassette-tape"
+  },
+  {
+    "name": "cast",
+    "class": "icon-cast"
+  },
+  {
+    "name": "castle",
+    "class": "icon-castle"
+  },
+  {
+    "name": "cat",
+    "class": "icon-cat"
+  },
+  {
+    "name": "cctv",
+    "class": "icon-cctv"
+  },
+  {
+    "name": "chart-area",
+    "class": "icon-chart-area"
+  },
+  {
+    "name": "chart-bar-big",
+    "class": "icon-chart-bar-big"
+  },
+  {
+    "name": "chart-bar-decreasing",
+    "class": "icon-chart-bar-decreasing"
+  },
+  {
+    "name": "chart-bar-increasing",
+    "class": "icon-chart-bar-increasing"
+  },
+  {
+    "name": "chart-bar-stacked",
+    "class": "icon-chart-bar-stacked"
+  },
+  {
+    "name": "chart-bar",
+    "class": "icon-chart-bar"
+  },
+  {
+    "name": "chart-candlestick",
+    "class": "icon-chart-candlestick"
+  },
+  {
+    "name": "chart-column-big",
+    "class": "icon-chart-column-big"
+  },
+  {
+    "name": "chart-column-decreasing",
+    "class": "icon-chart-column-decreasing"
+  },
+  {
+    "name": "chart-column-increasing",
+    "class": "icon-chart-column-increasing"
+  },
+  {
+    "name": "chart-column-stacked",
+    "class": "icon-chart-column-stacked"
+  },
+  {
+    "name": "chart-column",
+    "class": "icon-chart-column"
+  },
+  {
+    "name": "chart-line",
+    "class": "icon-chart-line"
+  },
+  {
+    "name": "chart-network",
+    "class": "icon-chart-network"
+  },
+  {
+    "name": "chart-no-axes-column-decreasing",
+    "class": "icon-chart-no-axes-column-decreasing"
+  },
+  {
+    "name": "chart-no-axes-column-increasing",
+    "class": "icon-chart-no-axes-column-increasing"
+  },
+  {
+    "name": "chart-no-axes-column",
+    "class": "icon-chart-no-axes-column"
+  },
+  {
+    "name": "chart-no-axes-combined",
+    "class": "icon-chart-no-axes-combined"
+  },
+  {
+    "name": "chart-no-axes-gantt",
+    "class": "icon-chart-no-axes-gantt"
+  },
+  {
+    "name": "chart-pie",
+    "class": "icon-chart-pie"
+  },
+  {
+    "name": "chart-scatter",
+    "class": "icon-chart-scatter"
+  },
+  {
+    "name": "chart-spline",
+    "class": "icon-chart-spline"
+  },
+  {
+    "name": "check-check",
+    "class": "icon-check-check"
+  },
+  {
+    "name": "check",
+    "class": "icon-check"
+  },
+  {
+    "name": "chef-hat",
+    "class": "icon-chef-hat"
+  },
+  {
+    "name": "cherry",
+    "class": "icon-cherry"
+  },
+  {
+    "name": "chevron-down",
+    "class": "icon-chevron-down"
+  },
+  {
+    "name": "chevron-first",
+    "class": "icon-chevron-first"
+  },
+  {
+    "name": "chevron-last",
+    "class": "icon-chevron-last"
+  },
+  {
+    "name": "chevron-left",
+    "class": "icon-chevron-left"
+  },
+  {
+    "name": "chevron-right",
+    "class": "icon-chevron-right"
+  },
+  {
+    "name": "chevron-up",
+    "class": "icon-chevron-up"
+  },
+  {
+    "name": "chevrons-down-up",
+    "class": "icon-chevrons-down-up"
+  },
+  {
+    "name": "chevrons-down",
+    "class": "icon-chevrons-down"
+  },
+  {
+    "name": "chevrons-left-right",
+    "class": "icon-chevrons-left-right"
+  },
+  {
+    "name": "chevrons-left",
+    "class": "icon-chevrons-left"
+  },
+  {
+    "name": "chevrons-right-left",
+    "class": "icon-chevrons-right-left"
+  },
+  {
+    "name": "chevrons-right",
+    "class": "icon-chevrons-right"
+  },
+  {
+    "name": "chevrons-up-down",
+    "class": "icon-chevrons-up-down"
+  },
+  {
+    "name": "chevrons-up",
+    "class": "icon-chevrons-up"
+  },
+  {
+    "name": "chrome",
+    "class": "icon-chrome"
+  },
+  {
+    "name": "church",
+    "class": "icon-church"
+  },
+  {
+    "name": "cigarette-off",
+    "class": "icon-cigarette-off"
+  },
+  {
+    "name": "cigarette",
+    "class": "icon-cigarette"
+  },
+  {
+    "name": "circle-alert",
+    "class": "icon-circle-alert"
+  },
+  {
+    "name": "circle-arrow-down",
+    "class": "icon-circle-arrow-down"
+  },
+  {
+    "name": "circle-arrow-left",
+    "class": "icon-circle-arrow-left"
+  },
+  {
+    "name": "circle-arrow-out-down-left",
+    "class": "icon-circle-arrow-out-down-left"
+  },
+  {
+    "name": "circle-arrow-out-down-right",
+    "class": "icon-circle-arrow-out-down-right"
+  },
+  {
+    "name": "circle-arrow-out-up-left",
+    "class": "icon-circle-arrow-out-up-left"
+  },
+  {
+    "name": "circle-arrow-out-up-right",
+    "class": "icon-circle-arrow-out-up-right"
+  },
+  {
+    "name": "circle-arrow-right",
+    "class": "icon-circle-arrow-right"
+  },
+  {
+    "name": "circle-arrow-up",
+    "class": "icon-circle-arrow-up"
+  },
+  {
+    "name": "circle-check-big",
+    "class": "icon-circle-check-big"
+  },
+  {
+    "name": "circle-check",
+    "class": "icon-circle-check"
+  },
+  {
+    "name": "circle-chevron-down",
+    "class": "icon-circle-chevron-down"
+  },
+  {
+    "name": "circle-chevron-left",
+    "class": "icon-circle-chevron-left"
+  },
+  {
+    "name": "circle-chevron-right",
+    "class": "icon-circle-chevron-right"
+  },
+  {
+    "name": "circle-chevron-up",
+    "class": "icon-circle-chevron-up"
+  },
+  {
+    "name": "circle-dashed",
+    "class": "icon-circle-dashed"
+  },
+  {
+    "name": "circle-divide",
+    "class": "icon-circle-divide"
+  },
+  {
+    "name": "circle-dollar-sign",
+    "class": "icon-circle-dollar-sign"
+  },
+  {
+    "name": "circle-dot-dashed",
+    "class": "icon-circle-dot-dashed"
+  },
+  {
+    "name": "circle-dot",
+    "class": "icon-circle-dot"
+  },
+  {
+    "name": "circle-ellipsis",
+    "class": "icon-circle-ellipsis"
+  },
+  {
+    "name": "circle-equal",
+    "class": "icon-circle-equal"
+  },
+  {
+    "name": "circle-fading-arrow-up",
+    "class": "icon-circle-fading-arrow-up"
+  },
+  {
+    "name": "circle-fading-plus",
+    "class": "icon-circle-fading-plus"
+  },
+  {
+    "name": "circle-gauge",
+    "class": "icon-circle-gauge"
+  },
+  {
+    "name": "circle-help",
+    "class": "icon-circle-help"
+  },
+  {
+    "name": "circle-minus",
+    "class": "icon-circle-minus"
+  },
+  {
+    "name": "circle-off",
+    "class": "icon-circle-off"
+  },
+  {
+    "name": "circle-parking-off",
+    "class": "icon-circle-parking-off"
+  },
+  {
+    "name": "circle-parking",
+    "class": "icon-circle-parking"
+  },
+  {
+    "name": "circle-pause",
+    "class": "icon-circle-pause"
+  },
+  {
+    "name": "circle-percent",
+    "class": "icon-circle-percent"
+  },
+  {
+    "name": "circle-play",
+    "class": "icon-circle-play"
+  },
+  {
+    "name": "circle-plus",
+    "class": "icon-circle-plus"
+  },
+  {
+    "name": "circle-power",
+    "class": "icon-circle-power"
+  },
+  {
+    "name": "circle-slash-2",
+    "class": "icon-circle-slash-2"
+  },
+  {
+    "name": "circle-slash",
+    "class": "icon-circle-slash"
+  },
+  {
+    "name": "circle-stop",
+    "class": "icon-circle-stop"
+  },
+  {
+    "name": "circle-user-round",
+    "class": "icon-circle-user-round"
+  },
+  {
+    "name": "circle-user",
+    "class": "icon-circle-user"
+  },
+  {
+    "name": "circle-x",
+    "class": "icon-circle-x"
+  },
+  {
+    "name": "circle",
+    "class": "icon-circle"
+  },
+  {
+    "name": "circuit-board",
+    "class": "icon-circuit-board"
+  },
+  {
+    "name": "citrus",
+    "class": "icon-citrus"
+  },
+  {
+    "name": "clapperboard",
+    "class": "icon-clapperboard"
+  },
+  {
+    "name": "clipboard-check",
+    "class": "icon-clipboard-check"
+  },
+  {
+    "name": "clipboard-copy",
+    "class": "icon-clipboard-copy"
+  },
+  {
+    "name": "clipboard-list",
+    "class": "icon-clipboard-list"
+  },
+  {
+    "name": "clipboard-minus",
+    "class": "icon-clipboard-minus"
+  },
+  {
+    "name": "clipboard-paste",
+    "class": "icon-clipboard-paste"
+  },
+  {
+    "name": "clipboard-pen-line",
+    "class": "icon-clipboard-pen-line"
+  },
+  {
+    "name": "clipboard-pen",
+    "class": "icon-clipboard-pen"
+  },
+  {
+    "name": "clipboard-plus",
+    "class": "icon-clipboard-plus"
+  },
+  {
+    "name": "clipboard-type",
+    "class": "icon-clipboard-type"
+  },
+  {
+    "name": "clipboard-x",
+    "class": "icon-clipboard-x"
+  },
+  {
+    "name": "clipboard",
+    "class": "icon-clipboard"
+  },
+  {
+    "name": "clock-1",
+    "class": "icon-clock-1"
+  },
+  {
+    "name": "clock-10",
+    "class": "icon-clock-10"
+  },
+  {
+    "name": "clock-11",
+    "class": "icon-clock-11"
+  },
+  {
+    "name": "clock-12",
+    "class": "icon-clock-12"
+  },
+  {
+    "name": "clock-2",
+    "class": "icon-clock-2"
+  },
+  {
+    "name": "clock-3",
+    "class": "icon-clock-3"
+  },
+  {
+    "name": "clock-4",
+    "class": "icon-clock-4"
+  },
+  {
+    "name": "clock-5",
+    "class": "icon-clock-5"
+  },
+  {
+    "name": "clock-6",
+    "class": "icon-clock-6"
+  },
+  {
+    "name": "clock-7",
+    "class": "icon-clock-7"
+  },
+  {
+    "name": "clock-8",
+    "class": "icon-clock-8"
+  },
+  {
+    "name": "clock-9",
+    "class": "icon-clock-9"
+  },
+  {
+    "name": "clock-arrow-down",
+    "class": "icon-clock-arrow-down"
+  },
+  {
+    "name": "clock-arrow-up",
+    "class": "icon-clock-arrow-up"
+  },
+  {
+    "name": "clock",
+    "class": "icon-clock"
+  },
+  {
+    "name": "cloud-cog",
+    "class": "icon-cloud-cog"
+  },
+  {
+    "name": "cloud-download",
+    "class": "icon-cloud-download"
+  },
+  {
+    "name": "cloud-drizzle",
+    "class": "icon-cloud-drizzle"
+  },
+  {
+    "name": "cloud-fog",
+    "class": "icon-cloud-fog"
+  },
+  {
+    "name": "cloud-hail",
+    "class": "icon-cloud-hail"
+  },
+  {
+    "name": "cloud-lightning",
+    "class": "icon-cloud-lightning"
+  },
+  {
+    "name": "cloud-moon-rain",
+    "class": "icon-cloud-moon-rain"
+  },
+  {
+    "name": "cloud-moon",
+    "class": "icon-cloud-moon"
+  },
+  {
+    "name": "cloud-off",
+    "class": "icon-cloud-off"
+  },
+  {
+    "name": "cloud-rain-wind",
+    "class": "icon-cloud-rain-wind"
+  },
+  {
+    "name": "cloud-rain",
+    "class": "icon-cloud-rain"
+  },
+  {
+    "name": "cloud-snow",
+    "class": "icon-cloud-snow"
+  },
+  {
+    "name": "cloud-sun-rain",
+    "class": "icon-cloud-sun-rain"
+  },
+  {
+    "name": "cloud-sun",
+    "class": "icon-cloud-sun"
+  },
+  {
+    "name": "cloud-upload",
+    "class": "icon-cloud-upload"
+  },
+  {
+    "name": "cloud",
+    "class": "icon-cloud"
+  },
+  {
+    "name": "cloudy",
+    "class": "icon-cloudy"
+  },
+  {
+    "name": "clover",
+    "class": "icon-clover"
+  },
+  {
+    "name": "club",
+    "class": "icon-club"
+  },
+  {
+    "name": "code-xml",
+    "class": "icon-code-xml"
+  },
+  {
+    "name": "code",
+    "class": "icon-code"
+  },
+  {
+    "name": "codepen",
+    "class": "icon-codepen"
+  },
+  {
+    "name": "codesandbox",
+    "class": "icon-codesandbox"
+  },
+  {
+    "name": "coffee",
+    "class": "icon-coffee"
+  },
+  {
+    "name": "cog",
+    "class": "icon-cog"
+  },
+  {
+    "name": "coins",
+    "class": "icon-coins"
+  },
+  {
+    "name": "columns-2",
+    "class": "icon-columns-2"
+  },
+  {
+    "name": "columns-3",
+    "class": "icon-columns-3"
+  },
+  {
+    "name": "columns-4",
+    "class": "icon-columns-4"
+  },
+  {
+    "name": "combine",
+    "class": "icon-combine"
+  },
+  {
+    "name": "command",
+    "class": "icon-command"
+  },
+  {
+    "name": "compass",
+    "class": "icon-compass"
+  },
+  {
+    "name": "component",
+    "class": "icon-component"
+  },
+  {
+    "name": "computer",
+    "class": "icon-computer"
+  },
+  {
+    "name": "concierge-bell",
+    "class": "icon-concierge-bell"
+  },
+  {
+    "name": "cone",
+    "class": "icon-cone"
+  },
+  {
+    "name": "construction",
+    "class": "icon-construction"
+  },
+  {
+    "name": "contact-round",
+    "class": "icon-contact-round"
+  },
+  {
+    "name": "contact",
+    "class": "icon-contact"
+  },
+  {
+    "name": "container",
+    "class": "icon-container"
+  },
+  {
+    "name": "contrast",
+    "class": "icon-contrast"
+  },
+  {
+    "name": "cookie",
+    "class": "icon-cookie"
+  },
+  {
+    "name": "cooking-pot",
+    "class": "icon-cooking-pot"
+  },
+  {
+    "name": "copy-check",
+    "class": "icon-copy-check"
+  },
+  {
+    "name": "copy-minus",
+    "class": "icon-copy-minus"
+  },
+  {
+    "name": "copy-plus",
+    "class": "icon-copy-plus"
+  },
+  {
+    "name": "copy-slash",
+    "class": "icon-copy-slash"
+  },
+  {
+    "name": "copy-x",
+    "class": "icon-copy-x"
+  },
+  {
+    "name": "copy",
+    "class": "icon-copy"
+  },
+  {
+    "name": "copyleft",
+    "class": "icon-copyleft"
+  },
+  {
+    "name": "copyright",
+    "class": "icon-copyright"
+  },
+  {
+    "name": "corner-down-left",
+    "class": "icon-corner-down-left"
+  },
+  {
+    "name": "corner-down-right",
+    "class": "icon-corner-down-right"
+  },
+  {
+    "name": "corner-left-down",
+    "class": "icon-corner-left-down"
+  },
+  {
+    "name": "corner-left-up",
+    "class": "icon-corner-left-up"
+  },
+  {
+    "name": "corner-right-down",
+    "class": "icon-corner-right-down"
+  },
+  {
+    "name": "corner-right-up",
+    "class": "icon-corner-right-up"
+  },
+  {
+    "name": "corner-up-left",
+    "class": "icon-corner-up-left"
+  },
+  {
+    "name": "corner-up-right",
+    "class": "icon-corner-up-right"
+  },
+  {
+    "name": "cpu",
+    "class": "icon-cpu"
+  },
+  {
+    "name": "creative-commons",
+    "class": "icon-creative-commons"
+  },
+  {
+    "name": "credit-card",
+    "class": "icon-credit-card"
+  },
+  {
+    "name": "croissant",
+    "class": "icon-croissant"
+  },
+  {
+    "name": "crop",
+    "class": "icon-crop"
+  },
+  {
+    "name": "cross",
+    "class": "icon-cross"
+  },
+  {
+    "name": "crosshair",
+    "class": "icon-crosshair"
+  },
+  {
+    "name": "crown",
+    "class": "icon-crown"
+  },
+  {
+    "name": "cuboid",
+    "class": "icon-cuboid"
+  },
+  {
+    "name": "cup-soda",
+    "class": "icon-cup-soda"
+  },
+  {
+    "name": "currency",
+    "class": "icon-currency"
+  },
+  {
+    "name": "cylinder",
+    "class": "icon-cylinder"
+  },
+  {
+    "name": "dam",
+    "class": "icon-dam"
+  },
+  {
+    "name": "database-backup",
+    "class": "icon-database-backup"
+  },
+  {
+    "name": "database-zap",
+    "class": "icon-database-zap"
+  },
+  {
+    "name": "database",
+    "class": "icon-database"
+  },
+  {
+    "name": "delete",
+    "class": "icon-delete"
+  },
+  {
+    "name": "dessert",
+    "class": "icon-dessert"
+  },
+  {
+    "name": "diameter",
+    "class": "icon-diameter"
+  },
+  {
+    "name": "diamond-minus",
+    "class": "icon-diamond-minus"
+  },
+  {
+    "name": "diamond-percent",
+    "class": "icon-diamond-percent"
+  },
+  {
+    "name": "diamond-plus",
+    "class": "icon-diamond-plus"
+  },
+  {
+    "name": "diamond",
+    "class": "icon-diamond"
+  },
+  {
+    "name": "dice-1",
+    "class": "icon-dice-1"
+  },
+  {
+    "name": "dice-2",
+    "class": "icon-dice-2"
+  },
+  {
+    "name": "dice-3",
+    "class": "icon-dice-3"
+  },
+  {
+    "name": "dice-4",
+    "class": "icon-dice-4"
+  },
+  {
+    "name": "dice-5",
+    "class": "icon-dice-5"
+  },
+  {
+    "name": "dice-6",
+    "class": "icon-dice-6"
+  },
+  {
+    "name": "dices",
+    "class": "icon-dices"
+  },
+  {
+    "name": "diff",
+    "class": "icon-diff"
+  },
+  {
+    "name": "disc-2",
+    "class": "icon-disc-2"
+  },
+  {
+    "name": "disc-3",
+    "class": "icon-disc-3"
+  },
+  {
+    "name": "disc-album",
+    "class": "icon-disc-album"
+  },
+  {
+    "name": "disc",
+    "class": "icon-disc"
+  },
+  {
+    "name": "divide",
+    "class": "icon-divide"
+  },
+  {
+    "name": "dna-off",
+    "class": "icon-dna-off"
+  },
+  {
+    "name": "dna",
+    "class": "icon-dna"
+  },
+  {
+    "name": "dock",
+    "class": "icon-dock"
+  },
+  {
+    "name": "dog",
+    "class": "icon-dog"
+  },
+  {
+    "name": "dollar-sign",
+    "class": "icon-dollar-sign"
+  },
+  {
+    "name": "donut",
+    "class": "icon-donut"
+  },
+  {
+    "name": "door-closed",
+    "class": "icon-door-closed"
+  },
+  {
+    "name": "door-open",
+    "class": "icon-door-open"
+  },
+  {
+    "name": "dot",
+    "class": "icon-dot"
+  },
+  {
+    "name": "download",
+    "class": "icon-download"
+  },
+  {
+    "name": "drafting-compass",
+    "class": "icon-drafting-compass"
+  },
+  {
+    "name": "drama",
+    "class": "icon-drama"
+  },
+  {
+    "name": "dribbble",
+    "class": "icon-dribbble"
+  },
+  {
+    "name": "drill",
+    "class": "icon-drill"
+  },
+  {
+    "name": "droplet",
+    "class": "icon-droplet"
+  },
+  {
+    "name": "droplets",
+    "class": "icon-droplets"
+  },
+  {
+    "name": "drum",
+    "class": "icon-drum"
+  },
+  {
+    "name": "drumstick",
+    "class": "icon-drumstick"
+  },
+  {
+    "name": "dumbbell",
+    "class": "icon-dumbbell"
+  },
+  {
+    "name": "ear-off",
+    "class": "icon-ear-off"
+  },
+  {
+    "name": "ear",
+    "class": "icon-ear"
+  },
+  {
+    "name": "earth-lock",
+    "class": "icon-earth-lock"
+  },
+  {
+    "name": "earth",
+    "class": "icon-earth"
+  },
+  {
+    "name": "eclipse",
+    "class": "icon-eclipse"
+  },
+  {
+    "name": "egg-fried",
+    "class": "icon-egg-fried"
+  },
+  {
+    "name": "egg-off",
+    "class": "icon-egg-off"
+  },
+  {
+    "name": "egg",
+    "class": "icon-egg"
+  },
+  {
+    "name": "ellipsis-vertical",
+    "class": "icon-ellipsis-vertical"
+  },
+  {
+    "name": "ellipsis",
+    "class": "icon-ellipsis"
+  },
+  {
+    "name": "equal-not",
+    "class": "icon-equal-not"
+  },
+  {
+    "name": "equal",
+    "class": "icon-equal"
+  },
+  {
+    "name": "eraser",
+    "class": "icon-eraser"
+  },
+  {
+    "name": "euro",
+    "class": "icon-euro"
+  },
+  {
+    "name": "expand",
+    "class": "icon-expand"
+  },
+  {
+    "name": "external-link",
+    "class": "icon-external-link"
+  },
+  {
+    "name": "eye-off",
+    "class": "icon-eye-off"
+  },
+  {
+    "name": "eye",
+    "class": "icon-eye"
+  },
+  {
+    "name": "facebook",
+    "class": "icon-facebook"
+  },
+  {
+    "name": "factory",
+    "class": "icon-factory"
+  },
+  {
+    "name": "fan",
+    "class": "icon-fan"
+  },
+  {
+    "name": "fast-forward",
+    "class": "icon-fast-forward"
+  },
+  {
+    "name": "feather",
+    "class": "icon-feather"
+  },
+  {
+    "name": "fence",
+    "class": "icon-fence"
+  },
+  {
+    "name": "ferris-wheel",
+    "class": "icon-ferris-wheel"
+  },
+  {
+    "name": "figma",
+    "class": "icon-figma"
+  },
+  {
+    "name": "file-archive",
+    "class": "icon-file-archive"
+  },
+  {
+    "name": "file-audio-2",
+    "class": "icon-file-audio-2"
+  },
+  {
+    "name": "file-audio",
+    "class": "icon-file-audio"
+  },
+  {
+    "name": "file-axis-3d",
+    "class": "icon-file-axis-3d"
+  },
+  {
+    "name": "file-badge-2",
+    "class": "icon-file-badge-2"
+  },
+  {
+    "name": "file-badge",
+    "class": "icon-file-badge"
+  },
+  {
+    "name": "file-box",
+    "class": "icon-file-box"
+  },
+  {
+    "name": "file-chart-column-increasing",
+    "class": "icon-file-chart-column-increasing"
+  },
+  {
+    "name": "file-chart-column",
+    "class": "icon-file-chart-column"
+  },
+  {
+    "name": "file-chart-line",
+    "class": "icon-file-chart-line"
+  },
+  {
+    "name": "file-chart-pie",
+    "class": "icon-file-chart-pie"
+  },
+  {
+    "name": "file-check-2",
+    "class": "icon-file-check-2"
+  },
+  {
+    "name": "file-check",
+    "class": "icon-file-check"
+  },
+  {
+    "name": "file-clock",
+    "class": "icon-file-clock"
+  },
+  {
+    "name": "file-code-2",
+    "class": "icon-file-code-2"
+  },
+  {
+    "name": "file-code",
+    "class": "icon-file-code"
+  },
+  {
+    "name": "file-cog",
+    "class": "icon-file-cog"
+  },
+  {
+    "name": "file-diff",
+    "class": "icon-file-diff"
+  },
+  {
+    "name": "file-digit",
+    "class": "icon-file-digit"
+  },
+  {
+    "name": "file-down",
+    "class": "icon-file-down"
+  },
+  {
+    "name": "file-heart",
+    "class": "icon-file-heart"
+  },
+  {
+    "name": "file-image",
+    "class": "icon-file-image"
+  },
+  {
+    "name": "file-input",
+    "class": "icon-file-input"
+  },
+  {
+    "name": "file-json-2",
+    "class": "icon-file-json-2"
+  },
+  {
+    "name": "file-json",
+    "class": "icon-file-json"
+  },
+  {
+    "name": "file-key-2",
+    "class": "icon-file-key-2"
+  },
+  {
+    "name": "file-key",
+    "class": "icon-file-key"
+  },
+  {
+    "name": "file-lock-2",
+    "class": "icon-file-lock-2"
+  },
+  {
+    "name": "file-lock",
+    "class": "icon-file-lock"
+  },
+  {
+    "name": "file-minus-2",
+    "class": "icon-file-minus-2"
+  },
+  {
+    "name": "file-minus",
+    "class": "icon-file-minus"
+  },
+  {
+    "name": "file-music",
+    "class": "icon-file-music"
+  },
+  {
+    "name": "file-output",
+    "class": "icon-file-output"
+  },
+  {
+    "name": "file-pen-line",
+    "class": "icon-file-pen-line"
+  },
+  {
+    "name": "file-pen",
+    "class": "icon-file-pen"
+  },
+  {
+    "name": "file-plus-2",
+    "class": "icon-file-plus-2"
+  },
+  {
+    "name": "file-plus",
+    "class": "icon-file-plus"
+  },
+  {
+    "name": "file-question",
+    "class": "icon-file-question"
+  },
+  {
+    "name": "file-scan",
+    "class": "icon-file-scan"
+  },
+  {
+    "name": "file-search-2",
+    "class": "icon-file-search-2"
+  },
+  {
+    "name": "file-search",
+    "class": "icon-file-search"
+  },
+  {
+    "name": "file-sliders",
+    "class": "icon-file-sliders"
+  },
+  {
+    "name": "file-spreadsheet",
+    "class": "icon-file-spreadsheet"
+  },
+  {
+    "name": "file-stack",
+    "class": "icon-file-stack"
+  },
+  {
+    "name": "file-symlink",
+    "class": "icon-file-symlink"
+  },
+  {
+    "name": "file-terminal",
+    "class": "icon-file-terminal"
+  },
+  {
+    "name": "file-text",
+    "class": "icon-file-text"
+  },
+  {
+    "name": "file-type-2",
+    "class": "icon-file-type-2"
+  },
+  {
+    "name": "file-type",
+    "class": "icon-file-type"
+  },
+  {
+    "name": "file-up",
+    "class": "icon-file-up"
+  },
+  {
+    "name": "file-video-2",
+    "class": "icon-file-video-2"
+  },
+  {
+    "name": "file-video",
+    "class": "icon-file-video"
+  },
+  {
+    "name": "file-volume-2",
+    "class": "icon-file-volume-2"
+  },
+  {
+    "name": "file-volume",
+    "class": "icon-file-volume"
+  },
+  {
+    "name": "file-warning",
+    "class": "icon-file-warning"
+  },
+  {
+    "name": "file-x-2",
+    "class": "icon-file-x-2"
+  },
+  {
+    "name": "file-x",
+    "class": "icon-file-x"
+  },
+  {
+    "name": "file",
+    "class": "icon-file"
+  },
+  {
+    "name": "files",
+    "class": "icon-files"
+  },
+  {
+    "name": "film",
+    "class": "icon-film"
+  },
+  {
+    "name": "filter-x",
+    "class": "icon-filter-x"
+  },
+  {
+    "name": "filter",
+    "class": "icon-filter"
+  },
+  {
+    "name": "fingerprint",
+    "class": "icon-fingerprint"
+  },
+  {
+    "name": "fire-extinguisher",
+    "class": "icon-fire-extinguisher"
+  },
+  {
+    "name": "fish-off",
+    "class": "icon-fish-off"
+  },
+  {
+    "name": "fish-symbol",
+    "class": "icon-fish-symbol"
+  },
+  {
+    "name": "fish",
+    "class": "icon-fish"
+  },
+  {
+    "name": "flag-off",
+    "class": "icon-flag-off"
+  },
+  {
+    "name": "flag-triangle-left",
+    "class": "icon-flag-triangle-left"
+  },
+  {
+    "name": "flag-triangle-right",
+    "class": "icon-flag-triangle-right"
+  },
+  {
+    "name": "flag",
+    "class": "icon-flag"
+  },
+  {
+    "name": "flame-kindling",
+    "class": "icon-flame-kindling"
+  },
+  {
+    "name": "flame",
+    "class": "icon-flame"
+  },
+  {
+    "name": "flashlight-off",
+    "class": "icon-flashlight-off"
+  },
+  {
+    "name": "flashlight",
+    "class": "icon-flashlight"
+  },
+  {
+    "name": "flask-conical-off",
+    "class": "icon-flask-conical-off"
+  },
+  {
+    "name": "flask-conical",
+    "class": "icon-flask-conical"
+  },
+  {
+    "name": "flask-round",
+    "class": "icon-flask-round"
+  },
+  {
+    "name": "flip-horizontal-2",
+    "class": "icon-flip-horizontal-2"
+  },
+  {
+    "name": "flip-horizontal",
+    "class": "icon-flip-horizontal"
+  },
+  {
+    "name": "flip-vertical-2",
+    "class": "icon-flip-vertical-2"
+  },
+  {
+    "name": "flip-vertical",
+    "class": "icon-flip-vertical"
+  },
+  {
+    "name": "flower-2",
+    "class": "icon-flower-2"
+  },
+  {
+    "name": "flower",
+    "class": "icon-flower"
+  },
+  {
+    "name": "focus",
+    "class": "icon-focus"
+  },
+  {
+    "name": "fold-horizontal",
+    "class": "icon-fold-horizontal"
+  },
+  {
+    "name": "fold-vertical",
+    "class": "icon-fold-vertical"
+  },
+  {
+    "name": "folder-archive",
+    "class": "icon-folder-archive"
+  },
+  {
+    "name": "folder-check",
+    "class": "icon-folder-check"
+  },
+  {
+    "name": "folder-clock",
+    "class": "icon-folder-clock"
+  },
+  {
+    "name": "folder-closed",
+    "class": "icon-folder-closed"
+  },
+  {
+    "name": "folder-code",
+    "class": "icon-folder-code"
+  },
+  {
+    "name": "folder-cog",
+    "class": "icon-folder-cog"
+  },
+  {
+    "name": "folder-dot",
+    "class": "icon-folder-dot"
+  },
+  {
+    "name": "folder-down",
+    "class": "icon-folder-down"
+  },
+  {
+    "name": "folder-git-2",
+    "class": "icon-folder-git-2"
+  },
+  {
+    "name": "folder-git",
+    "class": "icon-folder-git"
+  },
+  {
+    "name": "folder-heart",
+    "class": "icon-folder-heart"
+  },
+  {
+    "name": "folder-input",
+    "class": "icon-folder-input"
+  },
+  {
+    "name": "folder-kanban",
+    "class": "icon-folder-kanban"
+  },
+  {
+    "name": "folder-key",
+    "class": "icon-folder-key"
+  },
+  {
+    "name": "folder-lock",
+    "class": "icon-folder-lock"
+  },
+  {
+    "name": "folder-minus",
+    "class": "icon-folder-minus"
+  },
+  {
+    "name": "folder-open-dot",
+    "class": "icon-folder-open-dot"
+  },
+  {
+    "name": "folder-open",
+    "class": "icon-folder-open"
+  },
+  {
+    "name": "folder-output",
+    "class": "icon-folder-output"
+  },
+  {
+    "name": "folder-pen",
+    "class": "icon-folder-pen"
+  },
+  {
+    "name": "folder-plus",
+    "class": "icon-folder-plus"
+  },
+  {
+    "name": "folder-root",
+    "class": "icon-folder-root"
+  },
+  {
+    "name": "folder-search-2",
+    "class": "icon-folder-search-2"
+  },
+  {
+    "name": "folder-search",
+    "class": "icon-folder-search"
+  },
+  {
+    "name": "folder-symlink",
+    "class": "icon-folder-symlink"
+  },
+  {
+    "name": "folder-sync",
+    "class": "icon-folder-sync"
+  },
+  {
+    "name": "folder-tree",
+    "class": "icon-folder-tree"
+  },
+  {
+    "name": "folder-up",
+    "class": "icon-folder-up"
+  },
+  {
+    "name": "folder-x",
+    "class": "icon-folder-x"
+  },
+  {
+    "name": "folder",
+    "class": "icon-folder"
+  },
+  {
+    "name": "folders",
+    "class": "icon-folders"
+  },
+  {
+    "name": "footprints",
+    "class": "icon-footprints"
+  },
+  {
+    "name": "forklift",
+    "class": "icon-forklift"
+  },
+  {
+    "name": "forward",
+    "class": "icon-forward"
+  },
+  {
+    "name": "frame",
+    "class": "icon-frame"
+  },
+  {
+    "name": "framer",
+    "class": "icon-framer"
+  },
+  {
+    "name": "frown",
+    "class": "icon-frown"
+  },
+  {
+    "name": "fuel",
+    "class": "icon-fuel"
+  },
+  {
+    "name": "fullscreen",
+    "class": "icon-fullscreen"
+  },
+  {
+    "name": "gallery-horizontal-end",
+    "class": "icon-gallery-horizontal-end"
+  },
+  {
+    "name": "gallery-horizontal",
+    "class": "icon-gallery-horizontal"
+  },
+  {
+    "name": "gallery-thumbnails",
+    "class": "icon-gallery-thumbnails"
+  },
+  {
+    "name": "gallery-vertical-end",
+    "class": "icon-gallery-vertical-end"
+  },
+  {
+    "name": "gallery-vertical",
+    "class": "icon-gallery-vertical"
+  },
+  {
+    "name": "gamepad-2",
+    "class": "icon-gamepad-2"
+  },
+  {
+    "name": "gamepad",
+    "class": "icon-gamepad"
+  },
+  {
+    "name": "gauge",
+    "class": "icon-gauge"
+  },
+  {
+    "name": "gavel",
+    "class": "icon-gavel"
+  },
+  {
+    "name": "gem",
+    "class": "icon-gem"
+  },
+  {
+    "name": "ghost",
+    "class": "icon-ghost"
+  },
+  {
+    "name": "gift",
+    "class": "icon-gift"
+  },
+  {
+    "name": "git-branch-plus",
+    "class": "icon-git-branch-plus"
+  },
+  {
+    "name": "git-branch",
+    "class": "icon-git-branch"
+  },
+  {
+    "name": "git-commit-horizontal",
+    "class": "icon-git-commit-horizontal"
+  },
+  {
+    "name": "git-commit-vertical",
+    "class": "icon-git-commit-vertical"
+  },
+  {
+    "name": "git-compare-arrows",
+    "class": "icon-git-compare-arrows"
+  },
+  {
+    "name": "git-compare",
+    "class": "icon-git-compare"
+  },
+  {
+    "name": "git-fork",
+    "class": "icon-git-fork"
+  },
+  {
+    "name": "git-graph",
+    "class": "icon-git-graph"
+  },
+  {
+    "name": "git-merge",
+    "class": "icon-git-merge"
+  },
+  {
+    "name": "git-pull-request-arrow",
+    "class": "icon-git-pull-request-arrow"
+  },
+  {
+    "name": "git-pull-request-closed",
+    "class": "icon-git-pull-request-closed"
+  },
+  {
+    "name": "git-pull-request-create-arrow",
+    "class": "icon-git-pull-request-create-arrow"
+  },
+  {
+    "name": "git-pull-request-create",
+    "class": "icon-git-pull-request-create"
+  },
+  {
+    "name": "git-pull-request-draft",
+    "class": "icon-git-pull-request-draft"
+  },
+  {
+    "name": "git-pull-request",
+    "class": "icon-git-pull-request"
+  },
+  {
+    "name": "github",
+    "class": "icon-github"
+  },
+  {
+    "name": "gitlab",
+    "class": "icon-gitlab"
+  },
+  {
+    "name": "glass-water",
+    "class": "icon-glass-water"
+  },
+  {
+    "name": "glasses",
+    "class": "icon-glasses"
+  },
+  {
+    "name": "globe-lock",
+    "class": "icon-globe-lock"
+  },
+  {
+    "name": "globe",
+    "class": "icon-globe"
+  },
+  {
+    "name": "goal",
+    "class": "icon-goal"
+  },
+  {
+    "name": "grab",
+    "class": "icon-grab"
+  },
+  {
+    "name": "graduation-cap",
+    "class": "icon-graduation-cap"
+  },
+  {
+    "name": "grape",
+    "class": "icon-grape"
+  },
+  {
+    "name": "grid-2x2-check",
+    "class": "icon-grid-2x2-check"
+  },
+  {
+    "name": "grid-2x2-x",
+    "class": "icon-grid-2x2-x"
+  },
+  {
+    "name": "grid-2x2",
+    "class": "icon-grid-2x2"
+  },
+  {
+    "name": "grid-3x3",
+    "class": "icon-grid-3x3"
+  },
+  {
+    "name": "grip-horizontal",
+    "class": "icon-grip-horizontal"
+  },
+  {
+    "name": "grip-vertical",
+    "class": "icon-grip-vertical"
+  },
+  {
+    "name": "grip",
+    "class": "icon-grip"
+  },
+  {
+    "name": "group",
+    "class": "icon-group"
+  },
+  {
+    "name": "guitar",
+    "class": "icon-guitar"
+  },
+  {
+    "name": "ham",
+    "class": "icon-ham"
+  },
+  {
+    "name": "hammer",
+    "class": "icon-hammer"
+  },
+  {
+    "name": "hand-coins",
+    "class": "icon-hand-coins"
+  },
+  {
+    "name": "hand-heart",
+    "class": "icon-hand-heart"
+  },
+  {
+    "name": "hand-helping",
+    "class": "icon-hand-helping"
+  },
+  {
+    "name": "hand-metal",
+    "class": "icon-hand-metal"
+  },
+  {
+    "name": "hand-platter",
+    "class": "icon-hand-platter"
+  },
+  {
+    "name": "hand",
+    "class": "icon-hand"
+  },
+  {
+    "name": "handshake",
+    "class": "icon-handshake"
+  },
+  {
+    "name": "hard-drive-download",
+    "class": "icon-hard-drive-download"
+  },
+  {
+    "name": "hard-drive-upload",
+    "class": "icon-hard-drive-upload"
+  },
+  {
+    "name": "hard-drive",
+    "class": "icon-hard-drive"
+  },
+  {
+    "name": "hard-hat",
+    "class": "icon-hard-hat"
+  },
+  {
+    "name": "hash",
+    "class": "icon-hash"
+  },
+  {
+    "name": "haze",
+    "class": "icon-haze"
+  },
+  {
+    "name": "hdmi-port",
+    "class": "icon-hdmi-port"
+  },
+  {
+    "name": "heading-1",
+    "class": "icon-heading-1"
+  },
+  {
+    "name": "heading-2",
+    "class": "icon-heading-2"
+  },
+  {
+    "name": "heading-3",
+    "class": "icon-heading-3"
+  },
+  {
+    "name": "heading-4",
+    "class": "icon-heading-4"
+  },
+  {
+    "name": "heading-5",
+    "class": "icon-heading-5"
+  },
+  {
+    "name": "heading-6",
+    "class": "icon-heading-6"
+  },
+  {
+    "name": "heading",
+    "class": "icon-heading"
+  },
+  {
+    "name": "headphones",
+    "class": "icon-headphones"
+  },
+  {
+    "name": "headset",
+    "class": "icon-headset"
+  },
+  {
+    "name": "heart-crack",
+    "class": "icon-heart-crack"
+  },
+  {
+    "name": "heart-handshake",
+    "class": "icon-heart-handshake"
+  },
+  {
+    "name": "heart-off",
+    "class": "icon-heart-off"
+  },
+  {
+    "name": "heart-pulse",
+    "class": "icon-heart-pulse"
+  },
+  {
+    "name": "heart",
+    "class": "icon-heart"
+  },
+  {
+    "name": "heater",
+    "class": "icon-heater"
+  },
+  {
+    "name": "hexagon",
+    "class": "icon-hexagon"
+  },
+  {
+    "name": "highlighter",
+    "class": "icon-highlighter"
+  },
+  {
+    "name": "history",
+    "class": "icon-history"
+  },
+  {
+    "name": "hop-off",
+    "class": "icon-hop-off"
+  },
+  {
+    "name": "hop",
+    "class": "icon-hop"
+  },
+  {
+    "name": "hospital",
+    "class": "icon-hospital"
+  },
+  {
+    "name": "hotel",
+    "class": "icon-hotel"
+  },
+  {
+    "name": "hourglass",
+    "class": "icon-hourglass"
+  },
+  {
+    "name": "house-plug",
+    "class": "icon-house-plug"
+  },
+  {
+    "name": "house-plus",
+    "class": "icon-house-plus"
+  },
+  {
+    "name": "house",
+    "class": "icon-house"
+  },
+  {
+    "name": "ice-cream-bowl",
+    "class": "icon-ice-cream-bowl"
+  },
+  {
+    "name": "ice-cream-cone",
+    "class": "icon-ice-cream-cone"
+  },
+  {
+    "name": "id-card",
+    "class": "icon-id-card"
+  },
+  {
+    "name": "image-down",
+    "class": "icon-image-down"
+  },
+  {
+    "name": "image-minus",
+    "class": "icon-image-minus"
+  },
+  {
+    "name": "image-off",
+    "class": "icon-image-off"
+  },
+  {
+    "name": "image-play",
+    "class": "icon-image-play"
+  },
+  {
+    "name": "image-plus",
+    "class": "icon-image-plus"
+  },
+  {
+    "name": "image-up",
+    "class": "icon-image-up"
+  },
+  {
+    "name": "image",
+    "class": "icon-image"
+  },
+  {
+    "name": "images",
+    "class": "icon-images"
+  },
+  {
+    "name": "import",
+    "class": "icon-import"
+  },
+  {
+    "name": "inbox",
+    "class": "icon-inbox"
+  },
+  {
+    "name": "indent-decrease",
+    "class": "icon-indent-decrease"
+  },
+  {
+    "name": "indent-increase",
+    "class": "icon-indent-increase"
+  },
+  {
+    "name": "indian-rupee",
+    "class": "icon-indian-rupee"
+  },
+  {
+    "name": "infinity",
+    "class": "icon-infinity"
+  },
+  {
+    "name": "info",
+    "class": "icon-info"
+  },
+  {
+    "name": "inspection-panel",
+    "class": "icon-inspection-panel"
+  },
+  {
+    "name": "instagram",
+    "class": "icon-instagram"
+  },
+  {
+    "name": "italic",
+    "class": "icon-italic"
+  },
+  {
+    "name": "iteration-ccw",
+    "class": "icon-iteration-ccw"
+  },
+  {
+    "name": "iteration-cw",
+    "class": "icon-iteration-cw"
+  },
+  {
+    "name": "japanese-yen",
+    "class": "icon-japanese-yen"
+  },
+  {
+    "name": "joystick",
+    "class": "icon-joystick"
+  },
+  {
+    "name": "kanban",
+    "class": "icon-kanban"
+  },
+  {
+    "name": "key-round",
+    "class": "icon-key-round"
+  },
+  {
+    "name": "key-square",
+    "class": "icon-key-square"
+  },
+  {
+    "name": "key",
+    "class": "icon-key"
+  },
+  {
+    "name": "keyboard-music",
+    "class": "icon-keyboard-music"
+  },
+  {
+    "name": "keyboard-off",
+    "class": "icon-keyboard-off"
+  },
+  {
+    "name": "keyboard",
+    "class": "icon-keyboard"
+  },
+  {
+    "name": "lamp-ceiling",
+    "class": "icon-lamp-ceiling"
+  },
+  {
+    "name": "lamp-desk",
+    "class": "icon-lamp-desk"
+  },
+  {
+    "name": "lamp-floor",
+    "class": "icon-lamp-floor"
+  },
+  {
+    "name": "lamp-wall-down",
+    "class": "icon-lamp-wall-down"
+  },
+  {
+    "name": "lamp-wall-up",
+    "class": "icon-lamp-wall-up"
+  },
+  {
+    "name": "lamp",
+    "class": "icon-lamp"
+  },
+  {
+    "name": "land-plot",
+    "class": "icon-land-plot"
+  },
+  {
+    "name": "landmark",
+    "class": "icon-landmark"
+  },
+  {
+    "name": "languages",
+    "class": "icon-languages"
+  },
+  {
+    "name": "laptop-minimal",
+    "class": "icon-laptop-minimal"
+  },
+  {
+    "name": "laptop",
+    "class": "icon-laptop"
+  },
+  {
+    "name": "lasso-select",
+    "class": "icon-lasso-select"
+  },
+  {
+    "name": "lasso",
+    "class": "icon-lasso"
+  },
+  {
+    "name": "laugh",
+    "class": "icon-laugh"
+  },
+  {
+    "name": "layers-2",
+    "class": "icon-layers-2"
+  },
+  {
+    "name": "layers-3",
+    "class": "icon-layers-3"
+  },
+  {
+    "name": "layers",
+    "class": "icon-layers"
+  },
+  {
+    "name": "layout-dashboard",
+    "class": "icon-layout-dashboard"
+  },
+  {
+    "name": "layout-grid",
+    "class": "icon-layout-grid"
+  },
+  {
+    "name": "layout-list",
+    "class": "icon-layout-list"
+  },
+  {
+    "name": "layout-panel-left",
+    "class": "icon-layout-panel-left"
+  },
+  {
+    "name": "layout-panel-top",
+    "class": "icon-layout-panel-top"
+  },
+  {
+    "name": "layout-template",
+    "class": "icon-layout-template"
+  },
+  {
+    "name": "leaf",
+    "class": "icon-leaf"
+  },
+  {
+    "name": "leafy-green",
+    "class": "icon-leafy-green"
+  },
+  {
+    "name": "lectern",
+    "class": "icon-lectern"
+  },
+  {
+    "name": "letter-text",
+    "class": "icon-letter-text"
+  },
+  {
+    "name": "library-big",
+    "class": "icon-library-big"
+  },
+  {
+    "name": "library",
+    "class": "icon-library"
+  },
+  {
+    "name": "life-buoy",
+    "class": "icon-life-buoy"
+  },
+  {
+    "name": "ligature",
+    "class": "icon-ligature"
+  },
+  {
+    "name": "lightbulb-off",
+    "class": "icon-lightbulb-off"
+  },
+  {
+    "name": "lightbulb",
+    "class": "icon-lightbulb"
+  },
+  {
+    "name": "link-2-off",
+    "class": "icon-link-2-off"
+  },
+  {
+    "name": "link-2",
+    "class": "icon-link-2"
+  },
+  {
+    "name": "link",
+    "class": "icon-link"
+  },
+  {
+    "name": "linkedin",
+    "class": "icon-linkedin"
+  },
+  {
+    "name": "list-check",
+    "class": "icon-list-check"
+  },
+  {
+    "name": "list-checks",
+    "class": "icon-list-checks"
+  },
+  {
+    "name": "list-collapse",
+    "class": "icon-list-collapse"
+  },
+  {
+    "name": "list-end",
+    "class": "icon-list-end"
+  },
+  {
+    "name": "list-filter",
+    "class": "icon-list-filter"
+  },
+  {
+    "name": "list-minus",
+    "class": "icon-list-minus"
+  },
+  {
+    "name": "list-music",
+    "class": "icon-list-music"
+  },
+  {
+    "name": "list-ordered",
+    "class": "icon-list-ordered"
+  },
+  {
+    "name": "list-plus",
+    "class": "icon-list-plus"
+  },
+  {
+    "name": "list-restart",
+    "class": "icon-list-restart"
+  },
+  {
+    "name": "list-start",
+    "class": "icon-list-start"
+  },
+  {
+    "name": "list-todo",
+    "class": "icon-list-todo"
+  },
+  {
+    "name": "list-tree",
+    "class": "icon-list-tree"
+  },
+  {
+    "name": "list-video",
+    "class": "icon-list-video"
+  },
+  {
+    "name": "list-x",
+    "class": "icon-list-x"
+  },
+  {
+    "name": "list",
+    "class": "icon-list"
+  },
+  {
+    "name": "loader-circle",
+    "class": "icon-loader-circle"
+  },
+  {
+    "name": "loader-pinwheel",
+    "class": "icon-loader-pinwheel"
+  },
+  {
+    "name": "loader",
+    "class": "icon-loader"
+  },
+  {
+    "name": "locate-fixed",
+    "class": "icon-locate-fixed"
+  },
+  {
+    "name": "locate-off",
+    "class": "icon-locate-off"
+  },
+  {
+    "name": "locate",
+    "class": "icon-locate"
+  },
+  {
+    "name": "lock-keyhole-open",
+    "class": "icon-lock-keyhole-open"
+  },
+  {
+    "name": "lock-keyhole",
+    "class": "icon-lock-keyhole"
+  },
+  {
+    "name": "lock-open",
+    "class": "icon-lock-open"
+  },
+  {
+    "name": "lock",
+    "class": "icon-lock"
+  },
+  {
+    "name": "log-in",
+    "class": "icon-log-in"
+  },
+  {
+    "name": "log-out",
+    "class": "icon-log-out"
+  },
+  {
+    "name": "logs",
+    "class": "icon-logs"
+  },
+  {
+    "name": "lollipop",
+    "class": "icon-lollipop"
+  },
+  {
+    "name": "luggage",
+    "class": "icon-luggage"
+  },
+  {
+    "name": "magnet",
+    "class": "icon-magnet"
+  },
+  {
+    "name": "mail-check",
+    "class": "icon-mail-check"
+  },
+  {
+    "name": "mail-minus",
+    "class": "icon-mail-minus"
+  },
+  {
+    "name": "mail-open",
+    "class": "icon-mail-open"
+  },
+  {
+    "name": "mail-plus",
+    "class": "icon-mail-plus"
+  },
+  {
+    "name": "mail-question",
+    "class": "icon-mail-question"
+  },
+  {
+    "name": "mail-search",
+    "class": "icon-mail-search"
+  },
+  {
+    "name": "mail-warning",
+    "class": "icon-mail-warning"
+  },
+  {
+    "name": "mail-x",
+    "class": "icon-mail-x"
+  },
+  {
+    "name": "mail",
+    "class": "icon-mail"
+  },
+  {
+    "name": "mailbox",
+    "class": "icon-mailbox"
+  },
+  {
+    "name": "mails",
+    "class": "icon-mails"
+  },
+  {
+    "name": "map-pin-check-inside",
+    "class": "icon-map-pin-check-inside"
+  },
+  {
+    "name": "map-pin-check",
+    "class": "icon-map-pin-check"
+  },
+  {
+    "name": "map-pin-minus-inside",
+    "class": "icon-map-pin-minus-inside"
+  },
+  {
+    "name": "map-pin-minus",
+    "class": "icon-map-pin-minus"
+  },
+  {
+    "name": "map-pin-off",
+    "class": "icon-map-pin-off"
+  },
+  {
+    "name": "map-pin-plus-inside",
+    "class": "icon-map-pin-plus-inside"
+  },
+  {
+    "name": "map-pin-plus",
+    "class": "icon-map-pin-plus"
+  },
+  {
+    "name": "map-pin-x-inside",
+    "class": "icon-map-pin-x-inside"
+  },
+  {
+    "name": "map-pin-x",
+    "class": "icon-map-pin-x"
+  },
+  {
+    "name": "map-pin",
+    "class": "icon-map-pin"
+  },
+  {
+    "name": "map-pinned",
+    "class": "icon-map-pinned"
+  },
+  {
+    "name": "map",
+    "class": "icon-map"
+  },
+  {
+    "name": "martini",
+    "class": "icon-martini"
+  },
+  {
+    "name": "maximize-2",
+    "class": "icon-maximize-2"
+  },
+  {
+    "name": "maximize",
+    "class": "icon-maximize"
+  },
+  {
+    "name": "medal",
+    "class": "icon-medal"
+  },
+  {
+    "name": "megaphone-off",
+    "class": "icon-megaphone-off"
+  },
+  {
+    "name": "megaphone",
+    "class": "icon-megaphone"
+  },
+  {
+    "name": "meh",
+    "class": "icon-meh"
+  },
+  {
+    "name": "memory-stick",
+    "class": "icon-memory-stick"
+  },
+  {
+    "name": "menu",
+    "class": "icon-menu"
+  },
+  {
+    "name": "merge",
+    "class": "icon-merge"
+  },
+  {
+    "name": "message-circle-code",
+    "class": "icon-message-circle-code"
+  },
+  {
+    "name": "message-circle-dashed",
+    "class": "icon-message-circle-dashed"
+  },
+  {
+    "name": "message-circle-heart",
+    "class": "icon-message-circle-heart"
+  },
+  {
+    "name": "message-circle-more",
+    "class": "icon-message-circle-more"
+  },
+  {
+    "name": "message-circle-off",
+    "class": "icon-message-circle-off"
+  },
+  {
+    "name": "message-circle-plus",
+    "class": "icon-message-circle-plus"
+  },
+  {
+    "name": "message-circle-question",
+    "class": "icon-message-circle-question"
+  },
+  {
+    "name": "message-circle-reply",
+    "class": "icon-message-circle-reply"
+  },
+  {
+    "name": "message-circle-warning",
+    "class": "icon-message-circle-warning"
+  },
+  {
+    "name": "message-circle-x",
+    "class": "icon-message-circle-x"
+  },
+  {
+    "name": "message-circle",
+    "class": "icon-message-circle"
+  },
+  {
+    "name": "message-square-code",
+    "class": "icon-message-square-code"
+  },
+  {
+    "name": "message-square-dashed",
+    "class": "icon-message-square-dashed"
+  },
+  {
+    "name": "message-square-diff",
+    "class": "icon-message-square-diff"
+  },
+  {
+    "name": "message-square-dot",
+    "class": "icon-message-square-dot"
+  },
+  {
+    "name": "message-square-heart",
+    "class": "icon-message-square-heart"
+  },
+  {
+    "name": "message-square-more",
+    "class": "icon-message-square-more"
+  },
+  {
+    "name": "message-square-off",
+    "class": "icon-message-square-off"
+  },
+  {
+    "name": "message-square-plus",
+    "class": "icon-message-square-plus"
+  },
+  {
+    "name": "message-square-quote",
+    "class": "icon-message-square-quote"
+  },
+  {
+    "name": "message-square-reply",
+    "class": "icon-message-square-reply"
+  },
+  {
+    "name": "message-square-share",
+    "class": "icon-message-square-share"
+  },
+  {
+    "name": "message-square-text",
+    "class": "icon-message-square-text"
+  },
+  {
+    "name": "message-square-warning",
+    "class": "icon-message-square-warning"
+  },
+  {
+    "name": "message-square-x",
+    "class": "icon-message-square-x"
+  },
+  {
+    "name": "message-square",
+    "class": "icon-message-square"
+  },
+  {
+    "name": "messages-square",
+    "class": "icon-messages-square"
+  },
+  {
+    "name": "mic-off",
+    "class": "icon-mic-off"
+  },
+  {
+    "name": "mic-vocal",
+    "class": "icon-mic-vocal"
+  },
+  {
+    "name": "mic",
+    "class": "icon-mic"
+  },
+  {
+    "name": "microscope",
+    "class": "icon-microscope"
+  },
+  {
+    "name": "microwave",
+    "class": "icon-microwave"
+  },
+  {
+    "name": "milestone",
+    "class": "icon-milestone"
+  },
+  {
+    "name": "milk-off",
+    "class": "icon-milk-off"
+  },
+  {
+    "name": "milk",
+    "class": "icon-milk"
+  },
+  {
+    "name": "minimize-2",
+    "class": "icon-minimize-2"
+  },
+  {
+    "name": "minimize",
+    "class": "icon-minimize"
+  },
+  {
+    "name": "minus",
+    "class": "icon-minus"
+  },
+  {
+    "name": "monitor-check",
+    "class": "icon-monitor-check"
+  },
+  {
+    "name": "monitor-cog",
+    "class": "icon-monitor-cog"
+  },
+  {
+    "name": "monitor-dot",
+    "class": "icon-monitor-dot"
+  },
+  {
+    "name": "monitor-down",
+    "class": "icon-monitor-down"
+  },
+  {
+    "name": "monitor-off",
+    "class": "icon-monitor-off"
+  },
+  {
+    "name": "monitor-pause",
+    "class": "icon-monitor-pause"
+  },
+  {
+    "name": "monitor-play",
+    "class": "icon-monitor-play"
+  },
+  {
+    "name": "monitor-smartphone",
+    "class": "icon-monitor-smartphone"
+  },
+  {
+    "name": "monitor-speaker",
+    "class": "icon-monitor-speaker"
+  },
+  {
+    "name": "monitor-stop",
+    "class": "icon-monitor-stop"
+  },
+  {
+    "name": "monitor-up",
+    "class": "icon-monitor-up"
+  },
+  {
+    "name": "monitor-x",
+    "class": "icon-monitor-x"
+  },
+  {
+    "name": "monitor",
+    "class": "icon-monitor"
+  },
+  {
+    "name": "moon-star",
+    "class": "icon-moon-star"
+  },
+  {
+    "name": "moon",
+    "class": "icon-moon"
+  },
+  {
+    "name": "mountain-snow",
+    "class": "icon-mountain-snow"
+  },
+  {
+    "name": "mountain",
+    "class": "icon-mountain"
+  },
+  {
+    "name": "mouse-off",
+    "class": "icon-mouse-off"
+  },
+  {
+    "name": "mouse-pointer-2",
+    "class": "icon-mouse-pointer-2"
+  },
+  {
+    "name": "mouse-pointer-ban",
+    "class": "icon-mouse-pointer-ban"
+  },
+  {
+    "name": "mouse-pointer-click",
+    "class": "icon-mouse-pointer-click"
+  },
+  {
+    "name": "mouse-pointer",
+    "class": "icon-mouse-pointer"
+  },
+  {
+    "name": "mouse",
+    "class": "icon-mouse"
+  },
+  {
+    "name": "move-3d",
+    "class": "icon-move-3d"
+  },
+  {
+    "name": "move-diagonal-2",
+    "class": "icon-move-diagonal-2"
+  },
+  {
+    "name": "move-diagonal",
+    "class": "icon-move-diagonal"
+  },
+  {
+    "name": "move-down-left",
+    "class": "icon-move-down-left"
+  },
+  {
+    "name": "move-down-right",
+    "class": "icon-move-down-right"
+  },
+  {
+    "name": "move-down",
+    "class": "icon-move-down"
+  },
+  {
+    "name": "move-horizontal",
+    "class": "icon-move-horizontal"
+  },
+  {
+    "name": "move-left",
+    "class": "icon-move-left"
+  },
+  {
+    "name": "move-right",
+    "class": "icon-move-right"
+  },
+  {
+    "name": "move-up-left",
+    "class": "icon-move-up-left"
+  },
+  {
+    "name": "move-up-right",
+    "class": "icon-move-up-right"
+  },
+  {
+    "name": "move-up",
+    "class": "icon-move-up"
+  },
+  {
+    "name": "move-vertical",
+    "class": "icon-move-vertical"
+  },
+  {
+    "name": "move",
+    "class": "icon-move"
+  },
+  {
+    "name": "music-2",
+    "class": "icon-music-2"
+  },
+  {
+    "name": "music-3",
+    "class": "icon-music-3"
+  },
+  {
+    "name": "music-4",
+    "class": "icon-music-4"
+  },
+  {
+    "name": "music",
+    "class": "icon-music"
+  },
+  {
+    "name": "navigation-2-off",
+    "class": "icon-navigation-2-off"
+  },
+  {
+    "name": "navigation-2",
+    "class": "icon-navigation-2"
+  },
+  {
+    "name": "navigation-off",
+    "class": "icon-navigation-off"
+  },
+  {
+    "name": "navigation",
+    "class": "icon-navigation"
+  },
+  {
+    "name": "network",
+    "class": "icon-network"
+  },
+  {
+    "name": "newspaper",
+    "class": "icon-newspaper"
+  },
+  {
+    "name": "nfc",
+    "class": "icon-nfc"
+  },
+  {
+    "name": "notebook-pen",
+    "class": "icon-notebook-pen"
+  },
+  {
+    "name": "notebook-tabs",
+    "class": "icon-notebook-tabs"
+  },
+  {
+    "name": "notebook-text",
+    "class": "icon-notebook-text"
+  },
+  {
+    "name": "notebook",
+    "class": "icon-notebook"
+  },
+  {
+    "name": "notepad-text-dashed",
+    "class": "icon-notepad-text-dashed"
+  },
+  {
+    "name": "notepad-text",
+    "class": "icon-notepad-text"
+  },
+  {
+    "name": "nut-off",
+    "class": "icon-nut-off"
+  },
+  {
+    "name": "nut",
+    "class": "icon-nut"
+  },
+  {
+    "name": "octagon-alert",
+    "class": "icon-octagon-alert"
+  },
+  {
+    "name": "octagon-pause",
+    "class": "icon-octagon-pause"
+  },
+  {
+    "name": "octagon-x",
+    "class": "icon-octagon-x"
+  },
+  {
+    "name": "octagon",
+    "class": "icon-octagon"
+  },
+  {
+    "name": "option",
+    "class": "icon-option"
+  },
+  {
+    "name": "orbit",
+    "class": "icon-orbit"
+  },
+  {
+    "name": "origami",
+    "class": "icon-origami"
+  },
+  {
+    "name": "package-2",
+    "class": "icon-package-2"
+  },
+  {
+    "name": "package-check",
+    "class": "icon-package-check"
+  },
+  {
+    "name": "package-minus",
+    "class": "icon-package-minus"
+  },
+  {
+    "name": "package-open",
+    "class": "icon-package-open"
+  },
+  {
+    "name": "package-plus",
+    "class": "icon-package-plus"
+  },
+  {
+    "name": "package-search",
+    "class": "icon-package-search"
+  },
+  {
+    "name": "package-x",
+    "class": "icon-package-x"
+  },
+  {
+    "name": "package",
+    "class": "icon-package"
+  },
+  {
+    "name": "paint-bucket",
+    "class": "icon-paint-bucket"
+  },
+  {
+    "name": "paint-roller",
+    "class": "icon-paint-roller"
+  },
+  {
+    "name": "paintbrush-vertical",
+    "class": "icon-paintbrush-vertical"
+  },
+  {
+    "name": "paintbrush",
+    "class": "icon-paintbrush"
+  },
+  {
+    "name": "palette",
+    "class": "icon-palette"
+  },
+  {
+    "name": "panel-bottom-close",
+    "class": "icon-panel-bottom-close"
+  },
+  {
+    "name": "panel-bottom-dashed",
+    "class": "icon-panel-bottom-dashed"
+  },
+  {
+    "name": "panel-bottom-open",
+    "class": "icon-panel-bottom-open"
+  },
+  {
+    "name": "panel-bottom",
+    "class": "icon-panel-bottom"
+  },
+  {
+    "name": "panel-left-close",
+    "class": "icon-panel-left-close"
+  },
+  {
+    "name": "panel-left-dashed",
+    "class": "icon-panel-left-dashed"
+  },
+  {
+    "name": "panel-left-open",
+    "class": "icon-panel-left-open"
+  },
+  {
+    "name": "panel-left",
+    "class": "icon-panel-left"
+  },
+  {
+    "name": "panel-right-close",
+    "class": "icon-panel-right-close"
+  },
+  {
+    "name": "panel-right-dashed",
+    "class": "icon-panel-right-dashed"
+  },
+  {
+    "name": "panel-right-open",
+    "class": "icon-panel-right-open"
+  },
+  {
+    "name": "panel-right",
+    "class": "icon-panel-right"
+  },
+  {
+    "name": "panel-top-close",
+    "class": "icon-panel-top-close"
+  },
+  {
+    "name": "panel-top-dashed",
+    "class": "icon-panel-top-dashed"
+  },
+  {
+    "name": "panel-top-open",
+    "class": "icon-panel-top-open"
+  },
+  {
+    "name": "panel-top",
+    "class": "icon-panel-top"
+  },
+  {
+    "name": "panels-left-bottom",
+    "class": "icon-panels-left-bottom"
+  },
+  {
+    "name": "panels-right-bottom",
+    "class": "icon-panels-right-bottom"
+  },
+  {
+    "name": "panels-top-left",
+    "class": "icon-panels-top-left"
+  },
+  {
+    "name": "paperclip",
+    "class": "icon-paperclip"
+  },
+  {
+    "name": "parentheses",
+    "class": "icon-parentheses"
+  },
+  {
+    "name": "parking-meter",
+    "class": "icon-parking-meter"
+  },
+  {
+    "name": "party-popper",
+    "class": "icon-party-popper"
+  },
+  {
+    "name": "pause",
+    "class": "icon-pause"
+  },
+  {
+    "name": "paw-print",
+    "class": "icon-paw-print"
+  },
+  {
+    "name": "pc-case",
+    "class": "icon-pc-case"
+  },
+  {
+    "name": "pen-line",
+    "class": "icon-pen-line"
+  },
+  {
+    "name": "pen-off",
+    "class": "icon-pen-off"
+  },
+  {
+    "name": "pen-tool",
+    "class": "icon-pen-tool"
+  },
+  {
+    "name": "pen",
+    "class": "icon-pen"
+  },
+  {
+    "name": "pencil-line",
+    "class": "icon-pencil-line"
+  },
+  {
+    "name": "pencil-off",
+    "class": "icon-pencil-off"
+  },
+  {
+    "name": "pencil-ruler",
+    "class": "icon-pencil-ruler"
+  },
+  {
+    "name": "pencil",
+    "class": "icon-pencil"
+  },
+  {
+    "name": "pentagon",
+    "class": "icon-pentagon"
+  },
+  {
+    "name": "percent",
+    "class": "icon-percent"
+  },
+  {
+    "name": "person-standing",
+    "class": "icon-person-standing"
+  },
+  {
+    "name": "philippine-peso",
+    "class": "icon-philippine-peso"
+  },
+  {
+    "name": "phone-call",
+    "class": "icon-phone-call"
+  },
+  {
+    "name": "phone-forwarded",
+    "class": "icon-phone-forwarded"
+  },
+  {
+    "name": "phone-incoming",
+    "class": "icon-phone-incoming"
+  },
+  {
+    "name": "phone-missed",
+    "class": "icon-phone-missed"
+  },
+  {
+    "name": "phone-off",
+    "class": "icon-phone-off"
+  },
+  {
+    "name": "phone-outgoing",
+    "class": "icon-phone-outgoing"
+  },
+  {
+    "name": "phone",
+    "class": "icon-phone"
+  },
+  {
+    "name": "pi",
+    "class": "icon-pi"
+  },
+  {
+    "name": "piano",
+    "class": "icon-piano"
+  },
+  {
+    "name": "pickaxe",
+    "class": "icon-pickaxe"
+  },
+  {
+    "name": "picture-in-picture-2",
+    "class": "icon-picture-in-picture-2"
+  },
+  {
+    "name": "picture-in-picture",
+    "class": "icon-picture-in-picture"
+  },
+  {
+    "name": "piggy-bank",
+    "class": "icon-piggy-bank"
+  },
+  {
+    "name": "pilcrow-left",
+    "class": "icon-pilcrow-left"
+  },
+  {
+    "name": "pilcrow-right",
+    "class": "icon-pilcrow-right"
+  },
+  {
+    "name": "pilcrow",
+    "class": "icon-pilcrow"
+  },
+  {
+    "name": "pill-bottle",
+    "class": "icon-pill-bottle"
+  },
+  {
+    "name": "pill",
+    "class": "icon-pill"
+  },
+  {
+    "name": "pin-off",
+    "class": "icon-pin-off"
+  },
+  {
+    "name": "pin",
+    "class": "icon-pin"
+  },
+  {
+    "name": "pipette",
+    "class": "icon-pipette"
+  },
+  {
+    "name": "pizza",
+    "class": "icon-pizza"
+  },
+  {
+    "name": "plane-landing",
+    "class": "icon-plane-landing"
+  },
+  {
+    "name": "plane-takeoff",
+    "class": "icon-plane-takeoff"
+  },
+  {
+    "name": "plane",
+    "class": "icon-plane"
+  },
+  {
+    "name": "play",
+    "class": "icon-play"
+  },
+  {
+    "name": "plug-2",
+    "class": "icon-plug-2"
+  },
+  {
+    "name": "plug-zap",
+    "class": "icon-plug-zap"
+  },
+  {
+    "name": "plug",
+    "class": "icon-plug"
+  },
+  {
+    "name": "plus",
+    "class": "icon-plus"
+  },
+  {
+    "name": "pocket-knife",
+    "class": "icon-pocket-knife"
+  },
+  {
+    "name": "pocket",
+    "class": "icon-pocket"
+  },
+  {
+    "name": "podcast",
+    "class": "icon-podcast"
+  },
+  {
+    "name": "pointer-off",
+    "class": "icon-pointer-off"
+  },
+  {
+    "name": "pointer",
+    "class": "icon-pointer"
+  },
+  {
+    "name": "popcorn",
+    "class": "icon-popcorn"
+  },
+  {
+    "name": "popsicle",
+    "class": "icon-popsicle"
+  },
+  {
+    "name": "pound-sterling",
+    "class": "icon-pound-sterling"
+  },
+  {
+    "name": "power-off",
+    "class": "icon-power-off"
+  },
+  {
+    "name": "power",
+    "class": "icon-power"
+  },
+  {
+    "name": "presentation",
+    "class": "icon-presentation"
+  },
+  {
+    "name": "printer-check",
+    "class": "icon-printer-check"
+  },
+  {
+    "name": "printer",
+    "class": "icon-printer"
+  },
+  {
+    "name": "projector",
+    "class": "icon-projector"
+  },
+  {
+    "name": "proportions",
+    "class": "icon-proportions"
+  },
+  {
+    "name": "puzzle",
+    "class": "icon-puzzle"
+  },
+  {
+    "name": "pyramid",
+    "class": "icon-pyramid"
+  },
+  {
+    "name": "qr-code",
+    "class": "icon-qr-code"
+  },
+  {
+    "name": "quote",
+    "class": "icon-quote"
+  },
+  {
+    "name": "rabbit",
+    "class": "icon-rabbit"
+  },
+  {
+    "name": "radar",
+    "class": "icon-radar"
+  },
+  {
+    "name": "radiation",
+    "class": "icon-radiation"
+  },
+  {
+    "name": "radical",
+    "class": "icon-radical"
+  },
+  {
+    "name": "radio-receiver",
+    "class": "icon-radio-receiver"
+  },
+  {
+    "name": "radio-tower",
+    "class": "icon-radio-tower"
+  },
+  {
+    "name": "radio",
+    "class": "icon-radio"
+  },
+  {
+    "name": "radius",
+    "class": "icon-radius"
+  },
+  {
+    "name": "rail-symbol",
+    "class": "icon-rail-symbol"
+  },
+  {
+    "name": "rainbow",
+    "class": "icon-rainbow"
+  },
+  {
+    "name": "rat",
+    "class": "icon-rat"
+  },
+  {
+    "name": "ratio",
+    "class": "icon-ratio"
+  },
+  {
+    "name": "receipt-cent",
+    "class": "icon-receipt-cent"
+  },
+  {
+    "name": "receipt-euro",
+    "class": "icon-receipt-euro"
+  },
+  {
+    "name": "receipt-indian-rupee",
+    "class": "icon-receipt-indian-rupee"
+  },
+  {
+    "name": "receipt-japanese-yen",
+    "class": "icon-receipt-japanese-yen"
+  },
+  {
+    "name": "receipt-pound-sterling",
+    "class": "icon-receipt-pound-sterling"
+  },
+  {
+    "name": "receipt-russian-ruble",
+    "class": "icon-receipt-russian-ruble"
+  },
+  {
+    "name": "receipt-swiss-franc",
+    "class": "icon-receipt-swiss-franc"
+  },
+  {
+    "name": "receipt-text",
+    "class": "icon-receipt-text"
+  },
+  {
+    "name": "receipt",
+    "class": "icon-receipt"
+  },
+  {
+    "name": "rectangle-ellipsis",
+    "class": "icon-rectangle-ellipsis"
+  },
+  {
+    "name": "rectangle-horizontal",
+    "class": "icon-rectangle-horizontal"
+  },
+  {
+    "name": "rectangle-vertical",
+    "class": "icon-rectangle-vertical"
+  },
+  {
+    "name": "recycle",
+    "class": "icon-recycle"
+  },
+  {
+    "name": "redo-2",
+    "class": "icon-redo-2"
+  },
+  {
+    "name": "redo-dot",
+    "class": "icon-redo-dot"
+  },
+  {
+    "name": "redo",
+    "class": "icon-redo"
+  },
+  {
+    "name": "refresh-ccw-dot",
+    "class": "icon-refresh-ccw-dot"
+  },
+  {
+    "name": "refresh-ccw",
+    "class": "icon-refresh-ccw"
+  },
+  {
+    "name": "refresh-cw-off",
+    "class": "icon-refresh-cw-off"
+  },
+  {
+    "name": "refresh-cw",
+    "class": "icon-refresh-cw"
+  },
+  {
+    "name": "refrigerator",
+    "class": "icon-refrigerator"
+  },
+  {
+    "name": "regex",
+    "class": "icon-regex"
+  },
+  {
+    "name": "remove-formatting",
+    "class": "icon-remove-formatting"
+  },
+  {
+    "name": "repeat-1",
+    "class": "icon-repeat-1"
+  },
+  {
+    "name": "repeat-2",
+    "class": "icon-repeat-2"
+  },
+  {
+    "name": "repeat",
+    "class": "icon-repeat"
+  },
+  {
+    "name": "replace-all",
+    "class": "icon-replace-all"
+  },
+  {
+    "name": "replace",
+    "class": "icon-replace"
+  },
+  {
+    "name": "reply-all",
+    "class": "icon-reply-all"
+  },
+  {
+    "name": "reply",
+    "class": "icon-reply"
+  },
+  {
+    "name": "rewind",
+    "class": "icon-rewind"
+  },
+  {
+    "name": "ribbon",
+    "class": "icon-ribbon"
+  },
+  {
+    "name": "rocket",
+    "class": "icon-rocket"
+  },
+  {
+    "name": "rocking-chair",
+    "class": "icon-rocking-chair"
+  },
+  {
+    "name": "roller-coaster",
+    "class": "icon-roller-coaster"
+  },
+  {
+    "name": "rotate-3d",
+    "class": "icon-rotate-3d"
+  },
+  {
+    "name": "rotate-ccw-square",
+    "class": "icon-rotate-ccw-square"
+  },
+  {
+    "name": "rotate-ccw",
+    "class": "icon-rotate-ccw"
+  },
+  {
+    "name": "rotate-cw-square",
+    "class": "icon-rotate-cw-square"
+  },
+  {
+    "name": "rotate-cw",
+    "class": "icon-rotate-cw"
+  },
+  {
+    "name": "route-off",
+    "class": "icon-route-off"
+  },
+  {
+    "name": "route",
+    "class": "icon-route"
+  },
+  {
+    "name": "router",
+    "class": "icon-router"
+  },
+  {
+    "name": "rows-2",
+    "class": "icon-rows-2"
+  },
+  {
+    "name": "rows-3",
+    "class": "icon-rows-3"
+  },
+  {
+    "name": "rows-4",
+    "class": "icon-rows-4"
+  },
+  {
+    "name": "rss",
+    "class": "icon-rss"
+  },
+  {
+    "name": "ruler",
+    "class": "icon-ruler"
+  },
+  {
+    "name": "russian-ruble",
+    "class": "icon-russian-ruble"
+  },
+  {
+    "name": "sailboat",
+    "class": "icon-sailboat"
+  },
+  {
+    "name": "salad",
+    "class": "icon-salad"
+  },
+  {
+    "name": "sandwich",
+    "class": "icon-sandwich"
+  },
+  {
+    "name": "satellite-dish",
+    "class": "icon-satellite-dish"
+  },
+  {
+    "name": "satellite",
+    "class": "icon-satellite"
+  },
+  {
+    "name": "save-all",
+    "class": "icon-save-all"
+  },
+  {
+    "name": "save-off",
+    "class": "icon-save-off"
+  },
+  {
+    "name": "save",
+    "class": "icon-save"
+  },
+  {
+    "name": "scale-3d",
+    "class": "icon-scale-3d"
+  },
+  {
+    "name": "scale",
+    "class": "icon-scale"
+  },
+  {
+    "name": "scaling",
+    "class": "icon-scaling"
+  },
+  {
+    "name": "scan-barcode",
+    "class": "icon-scan-barcode"
+  },
+  {
+    "name": "scan-eye",
+    "class": "icon-scan-eye"
+  },
+  {
+    "name": "scan-face",
+    "class": "icon-scan-face"
+  },
+  {
+    "name": "scan-line",
+    "class": "icon-scan-line"
+  },
+  {
+    "name": "scan-qr-code",
+    "class": "icon-scan-qr-code"
+  },
+  {
+    "name": "scan-search",
+    "class": "icon-scan-search"
+  },
+  {
+    "name": "scan-text",
+    "class": "icon-scan-text"
+  },
+  {
+    "name": "scan",
+    "class": "icon-scan"
+  },
+  {
+    "name": "school",
+    "class": "icon-school"
+  },
+  {
+    "name": "scissors-line-dashed",
+    "class": "icon-scissors-line-dashed"
+  },
+  {
+    "name": "scissors",
+    "class": "icon-scissors"
+  },
+  {
+    "name": "screen-share-off",
+    "class": "icon-screen-share-off"
+  },
+  {
+    "name": "screen-share",
+    "class": "icon-screen-share"
+  },
+  {
+    "name": "scroll-text",
+    "class": "icon-scroll-text"
+  },
+  {
+    "name": "scroll",
+    "class": "icon-scroll"
+  },
+  {
+    "name": "search-check",
+    "class": "icon-search-check"
+  },
+  {
+    "name": "search-code",
+    "class": "icon-search-code"
+  },
+  {
+    "name": "search-slash",
+    "class": "icon-search-slash"
+  },
+  {
+    "name": "search-x",
+    "class": "icon-search-x"
+  },
+  {
+    "name": "search",
+    "class": "icon-search"
+  },
+  {
+    "name": "section",
+    "class": "icon-section"
+  },
+  {
+    "name": "send-horizontal",
+    "class": "icon-send-horizontal"
+  },
+  {
+    "name": "send-to-back",
+    "class": "icon-send-to-back"
+  },
+  {
+    "name": "send",
+    "class": "icon-send"
+  },
+  {
+    "name": "separator-horizontal",
+    "class": "icon-separator-horizontal"
+  },
+  {
+    "name": "separator-vertical",
+    "class": "icon-separator-vertical"
+  },
+  {
+    "name": "server-cog",
+    "class": "icon-server-cog"
+  },
+  {
+    "name": "server-crash",
+    "class": "icon-server-crash"
+  },
+  {
+    "name": "server-off",
+    "class": "icon-server-off"
+  },
+  {
+    "name": "server",
+    "class": "icon-server"
+  },
+  {
+    "name": "settings-2",
+    "class": "icon-settings-2"
+  },
+  {
+    "name": "settings",
+    "class": "icon-settings"
+  },
+  {
+    "name": "shapes",
+    "class": "icon-shapes"
+  },
+  {
+    "name": "share-2",
+    "class": "icon-share-2"
+  },
+  {
+    "name": "share",
+    "class": "icon-share"
+  },
+  {
+    "name": "sheet",
+    "class": "icon-sheet"
+  },
+  {
+    "name": "shell",
+    "class": "icon-shell"
+  },
+  {
+    "name": "shield-alert",
+    "class": "icon-shield-alert"
+  },
+  {
+    "name": "shield-ban",
+    "class": "icon-shield-ban"
+  },
+  {
+    "name": "shield-check",
+    "class": "icon-shield-check"
+  },
+  {
+    "name": "shield-ellipsis",
+    "class": "icon-shield-ellipsis"
+  },
+  {
+    "name": "shield-half",
+    "class": "icon-shield-half"
+  },
+  {
+    "name": "shield-minus",
+    "class": "icon-shield-minus"
+  },
+  {
+    "name": "shield-off",
+    "class": "icon-shield-off"
+  },
+  {
+    "name": "shield-plus",
+    "class": "icon-shield-plus"
+  },
+  {
+    "name": "shield-question",
+    "class": "icon-shield-question"
+  },
+  {
+    "name": "shield-x",
+    "class": "icon-shield-x"
+  },
+  {
+    "name": "shield",
+    "class": "icon-shield"
+  },
+  {
+    "name": "ship-wheel",
+    "class": "icon-ship-wheel"
+  },
+  {
+    "name": "ship",
+    "class": "icon-ship"
+  },
+  {
+    "name": "shirt",
+    "class": "icon-shirt"
+  },
+  {
+    "name": "shopping-bag",
+    "class": "icon-shopping-bag"
+  },
+  {
+    "name": "shopping-basket",
+    "class": "icon-shopping-basket"
+  },
+  {
+    "name": "shopping-cart",
+    "class": "icon-shopping-cart"
+  },
+  {
+    "name": "shovel",
+    "class": "icon-shovel"
+  },
+  {
+    "name": "shower-head",
+    "class": "icon-shower-head"
+  },
+  {
+    "name": "shrink",
+    "class": "icon-shrink"
+  },
+  {
+    "name": "shrub",
+    "class": "icon-shrub"
+  },
+  {
+    "name": "shuffle",
+    "class": "icon-shuffle"
+  },
+  {
+    "name": "sigma",
+    "class": "icon-sigma"
+  },
+  {
+    "name": "signal-high",
+    "class": "icon-signal-high"
+  },
+  {
+    "name": "signal-low",
+    "class": "icon-signal-low"
+  },
+  {
+    "name": "signal-medium",
+    "class": "icon-signal-medium"
+  },
+  {
+    "name": "signal-zero",
+    "class": "icon-signal-zero"
+  },
+  {
+    "name": "signal",
+    "class": "icon-signal"
+  },
+  {
+    "name": "signature",
+    "class": "icon-signature"
+  },
+  {
+    "name": "signpost-big",
+    "class": "icon-signpost-big"
+  },
+  {
+    "name": "signpost",
+    "class": "icon-signpost"
+  },
+  {
+    "name": "siren",
+    "class": "icon-siren"
+  },
+  {
+    "name": "skip-back",
+    "class": "icon-skip-back"
+  },
+  {
+    "name": "skip-forward",
+    "class": "icon-skip-forward"
+  },
+  {
+    "name": "skull",
+    "class": "icon-skull"
+  },
+  {
+    "name": "slack",
+    "class": "icon-slack"
+  },
+  {
+    "name": "slash",
+    "class": "icon-slash"
+  },
+  {
+    "name": "slice",
+    "class": "icon-slice"
+  },
+  {
+    "name": "sliders-horizontal",
+    "class": "icon-sliders-horizontal"
+  },
+  {
+    "name": "sliders-vertical",
+    "class": "icon-sliders-vertical"
+  },
+  {
+    "name": "smartphone-charging",
+    "class": "icon-smartphone-charging"
+  },
+  {
+    "name": "smartphone-nfc",
+    "class": "icon-smartphone-nfc"
+  },
+  {
+    "name": "smartphone",
+    "class": "icon-smartphone"
+  },
+  {
+    "name": "smile-plus",
+    "class": "icon-smile-plus"
+  },
+  {
+    "name": "smile",
+    "class": "icon-smile"
+  },
+  {
+    "name": "snail",
+    "class": "icon-snail"
+  },
+  {
+    "name": "snowflake",
+    "class": "icon-snowflake"
+  },
+  {
+    "name": "sofa",
+    "class": "icon-sofa"
+  },
+  {
+    "name": "soup",
+    "class": "icon-soup"
+  },
+  {
+    "name": "space",
+    "class": "icon-space"
+  },
+  {
+    "name": "spade",
+    "class": "icon-spade"
+  },
+  {
+    "name": "sparkle",
+    "class": "icon-sparkle"
+  },
+  {
+    "name": "sparkles",
+    "class": "icon-sparkles"
+  },
+  {
+    "name": "speaker",
+    "class": "icon-speaker"
+  },
+  {
+    "name": "speech",
+    "class": "icon-speech"
+  },
+  {
+    "name": "spell-check-2",
+    "class": "icon-spell-check-2"
+  },
+  {
+    "name": "spell-check",
+    "class": "icon-spell-check"
+  },
+  {
+    "name": "spline",
+    "class": "icon-spline"
+  },
+  {
+    "name": "split",
+    "class": "icon-split"
+  },
+  {
+    "name": "spray-can",
+    "class": "icon-spray-can"
+  },
+  {
+    "name": "sprout",
+    "class": "icon-sprout"
+  },
+  {
+    "name": "square-activity",
+    "class": "icon-square-activity"
+  },
+  {
+    "name": "square-arrow-down-left",
+    "class": "icon-square-arrow-down-left"
+  },
+  {
+    "name": "square-arrow-down-right",
+    "class": "icon-square-arrow-down-right"
+  },
+  {
+    "name": "square-arrow-down",
+    "class": "icon-square-arrow-down"
+  },
+  {
+    "name": "square-arrow-left",
+    "class": "icon-square-arrow-left"
+  },
+  {
+    "name": "square-arrow-out-down-left",
+    "class": "icon-square-arrow-out-down-left"
+  },
+  {
+    "name": "square-arrow-out-down-right",
+    "class": "icon-square-arrow-out-down-right"
+  },
+  {
+    "name": "square-arrow-out-up-left",
+    "class": "icon-square-arrow-out-up-left"
+  },
+  {
+    "name": "square-arrow-out-up-right",
+    "class": "icon-square-arrow-out-up-right"
+  },
+  {
+    "name": "square-arrow-right",
+    "class": "icon-square-arrow-right"
+  },
+  {
+    "name": "square-arrow-up-left",
+    "class": "icon-square-arrow-up-left"
+  },
+  {
+    "name": "square-arrow-up-right",
+    "class": "icon-square-arrow-up-right"
+  },
+  {
+    "name": "square-arrow-up",
+    "class": "icon-square-arrow-up"
+  },
+  {
+    "name": "square-asterisk",
+    "class": "icon-square-asterisk"
+  },
+  {
+    "name": "square-bottom-dashed-scissors",
+    "class": "icon-square-bottom-dashed-scissors"
+  },
+  {
+    "name": "square-chart-gantt",
+    "class": "icon-square-chart-gantt"
+  },
+  {
+    "name": "square-check-big",
+    "class": "icon-square-check-big"
+  },
+  {
+    "name": "square-check",
+    "class": "icon-square-check"
+  },
+  {
+    "name": "square-chevron-down",
+    "class": "icon-square-chevron-down"
+  },
+  {
+    "name": "square-chevron-left",
+    "class": "icon-square-chevron-left"
+  },
+  {
+    "name": "square-chevron-right",
+    "class": "icon-square-chevron-right"
+  },
+  {
+    "name": "square-chevron-up",
+    "class": "icon-square-chevron-up"
+  },
+  {
+    "name": "square-code",
+    "class": "icon-square-code"
+  },
+  {
+    "name": "square-dashed-bottom-code",
+    "class": "icon-square-dashed-bottom-code"
+  },
+  {
+    "name": "square-dashed-bottom",
+    "class": "icon-square-dashed-bottom"
+  },
+  {
+    "name": "square-dashed-kanban",
+    "class": "icon-square-dashed-kanban"
+  },
+  {
+    "name": "square-dashed-mouse-pointer",
+    "class": "icon-square-dashed-mouse-pointer"
+  },
+  {
+    "name": "square-divide",
+    "class": "icon-square-divide"
+  },
+  {
+    "name": "square-dot",
+    "class": "icon-square-dot"
+  },
+  {
+    "name": "square-equal",
+    "class": "icon-square-equal"
+  },
+  {
+    "name": "square-function",
+    "class": "icon-square-function"
+  },
+  {
+    "name": "square-kanban",
+    "class": "icon-square-kanban"
+  },
+  {
+    "name": "square-library",
+    "class": "icon-square-library"
+  },
+  {
+    "name": "square-m",
+    "class": "icon-square-m"
+  },
+  {
+    "name": "square-menu",
+    "class": "icon-square-menu"
+  },
+  {
+    "name": "square-minus",
+    "class": "icon-square-minus"
+  },
+  {
+    "name": "square-mouse-pointer",
+    "class": "icon-square-mouse-pointer"
+  },
+  {
+    "name": "square-parking-off",
+    "class": "icon-square-parking-off"
+  },
+  {
+    "name": "square-parking",
+    "class": "icon-square-parking"
+  },
+  {
+    "name": "square-pen",
+    "class": "icon-square-pen"
+  },
+  {
+    "name": "square-percent",
+    "class": "icon-square-percent"
+  },
+  {
+    "name": "square-pi",
+    "class": "icon-square-pi"
+  },
+  {
+    "name": "square-pilcrow",
+    "class": "icon-square-pilcrow"
+  },
+  {
+    "name": "square-play",
+    "class": "icon-square-play"
+  },
+  {
+    "name": "square-plus",
+    "class": "icon-square-plus"
+  },
+  {
+    "name": "square-power",
+    "class": "icon-square-power"
+  },
+  {
+    "name": "square-radical",
+    "class": "icon-square-radical"
+  },
+  {
+    "name": "square-scissors",
+    "class": "icon-square-scissors"
+  },
+  {
+    "name": "square-sigma",
+    "class": "icon-square-sigma"
+  },
+  {
+    "name": "square-slash",
+    "class": "icon-square-slash"
+  },
+  {
+    "name": "square-split-horizontal",
+    "class": "icon-square-split-horizontal"
+  },
+  {
+    "name": "square-split-vertical",
+    "class": "icon-square-split-vertical"
+  },
+  {
+    "name": "square-square",
+    "class": "icon-square-square"
+  },
+  {
+    "name": "square-stack",
+    "class": "icon-square-stack"
+  },
+  {
+    "name": "square-terminal",
+    "class": "icon-square-terminal"
+  },
+  {
+    "name": "square-user-round",
+    "class": "icon-square-user-round"
+  },
+  {
+    "name": "square-user",
+    "class": "icon-square-user"
+  },
+  {
+    "name": "square-x",
+    "class": "icon-square-x"
+  },
+  {
+    "name": "square",
+    "class": "icon-square"
+  },
+  {
+    "name": "squircle",
+    "class": "icon-squircle"
+  },
+  {
+    "name": "squirrel",
+    "class": "icon-squirrel"
+  },
+  {
+    "name": "stamp",
+    "class": "icon-stamp"
+  },
+  {
+    "name": "star-half",
+    "class": "icon-star-half"
+  },
+  {
+    "name": "star-off",
+    "class": "icon-star-off"
+  },
+  {
+    "name": "star",
+    "class": "icon-star"
+  },
+  {
+    "name": "step-back",
+    "class": "icon-step-back"
+  },
+  {
+    "name": "step-forward",
+    "class": "icon-step-forward"
+  },
+  {
+    "name": "stethoscope",
+    "class": "icon-stethoscope"
+  },
+  {
+    "name": "sticker",
+    "class": "icon-sticker"
+  },
+  {
+    "name": "sticky-note",
+    "class": "icon-sticky-note"
+  },
+  {
+    "name": "store",
+    "class": "icon-store"
+  },
+  {
+    "name": "stretch-horizontal",
+    "class": "icon-stretch-horizontal"
+  },
+  {
+    "name": "stretch-vertical",
+    "class": "icon-stretch-vertical"
+  },
+  {
+    "name": "strikethrough",
+    "class": "icon-strikethrough"
+  },
+  {
+    "name": "subscript",
+    "class": "icon-subscript"
+  },
+  {
+    "name": "sun-dim",
+    "class": "icon-sun-dim"
+  },
+  {
+    "name": "sun-medium",
+    "class": "icon-sun-medium"
+  },
+  {
+    "name": "sun-moon",
+    "class": "icon-sun-moon"
+  },
+  {
+    "name": "sun-snow",
+    "class": "icon-sun-snow"
+  },
+  {
+    "name": "sun",
+    "class": "icon-sun"
+  },
+  {
+    "name": "sunrise",
+    "class": "icon-sunrise"
+  },
+  {
+    "name": "sunset",
+    "class": "icon-sunset"
+  },
+  {
+    "name": "superscript",
+    "class": "icon-superscript"
+  },
+  {
+    "name": "swatch-book",
+    "class": "icon-swatch-book"
+  },
+  {
+    "name": "swiss-franc",
+    "class": "icon-swiss-franc"
+  },
+  {
+    "name": "switch-camera",
+    "class": "icon-switch-camera"
+  },
+  {
+    "name": "sword",
+    "class": "icon-sword"
+  },
+  {
+    "name": "swords",
+    "class": "icon-swords"
+  },
+  {
+    "name": "syringe",
+    "class": "icon-syringe"
+  },
+  {
+    "name": "table-2",
+    "class": "icon-table-2"
+  },
+  {
+    "name": "table-cells-merge",
+    "class": "icon-table-cells-merge"
+  },
+  {
+    "name": "table-cells-split",
+    "class": "icon-table-cells-split"
+  },
+  {
+    "name": "table-columns-split",
+    "class": "icon-table-columns-split"
+  },
+  {
+    "name": "table-properties",
+    "class": "icon-table-properties"
+  },
+  {
+    "name": "table-rows-split",
+    "class": "icon-table-rows-split"
+  },
+  {
+    "name": "table",
+    "class": "icon-table"
+  },
+  {
+    "name": "tablet-smartphone",
+    "class": "icon-tablet-smartphone"
+  },
+  {
+    "name": "tablet",
+    "class": "icon-tablet"
+  },
+  {
+    "name": "tablets",
+    "class": "icon-tablets"
+  },
+  {
+    "name": "tag",
+    "class": "icon-tag"
+  },
+  {
+    "name": "tags",
+    "class": "icon-tags"
+  },
+  {
+    "name": "tally-1",
+    "class": "icon-tally-1"
+  },
+  {
+    "name": "tally-2",
+    "class": "icon-tally-2"
+  },
+  {
+    "name": "tally-3",
+    "class": "icon-tally-3"
+  },
+  {
+    "name": "tally-4",
+    "class": "icon-tally-4"
+  },
+  {
+    "name": "tally-5",
+    "class": "icon-tally-5"
+  },
+  {
+    "name": "tangent",
+    "class": "icon-tangent"
+  },
+  {
+    "name": "target",
+    "class": "icon-target"
+  },
+  {
+    "name": "telescope",
+    "class": "icon-telescope"
+  },
+  {
+    "name": "tent-tree",
+    "class": "icon-tent-tree"
+  },
+  {
+    "name": "tent",
+    "class": "icon-tent"
+  },
+  {
+    "name": "terminal",
+    "class": "icon-terminal"
+  },
+  {
+    "name": "test-tube-diagonal",
+    "class": "icon-test-tube-diagonal"
+  },
+  {
+    "name": "test-tube",
+    "class": "icon-test-tube"
+  },
+  {
+    "name": "test-tubes",
+    "class": "icon-test-tubes"
+  },
+  {
+    "name": "text-cursor-input",
+    "class": "icon-text-cursor-input"
+  },
+  {
+    "name": "text-cursor",
+    "class": "icon-text-cursor"
+  },
+  {
+    "name": "text-quote",
+    "class": "icon-text-quote"
+  },
+  {
+    "name": "text-search",
+    "class": "icon-text-search"
+  },
+  {
+    "name": "text-select",
+    "class": "icon-text-select"
+  },
+  {
+    "name": "text",
+    "class": "icon-text"
+  },
+  {
+    "name": "theater",
+    "class": "icon-theater"
+  },
+  {
+    "name": "thermometer-snowflake",
+    "class": "icon-thermometer-snowflake"
+  },
+  {
+    "name": "thermometer-sun",
+    "class": "icon-thermometer-sun"
+  },
+  {
+    "name": "thermometer",
+    "class": "icon-thermometer"
+  },
+  {
+    "name": "thumbs-down",
+    "class": "icon-thumbs-down"
+  },
+  {
+    "name": "thumbs-up",
+    "class": "icon-thumbs-up"
+  },
+  {
+    "name": "ticket-check",
+    "class": "icon-ticket-check"
+  },
+  {
+    "name": "ticket-minus",
+    "class": "icon-ticket-minus"
+  },
+  {
+    "name": "ticket-percent",
+    "class": "icon-ticket-percent"
+  },
+  {
+    "name": "ticket-plus",
+    "class": "icon-ticket-plus"
+  },
+  {
+    "name": "ticket-slash",
+    "class": "icon-ticket-slash"
+  },
+  {
+    "name": "ticket-x",
+    "class": "icon-ticket-x"
+  },
+  {
+    "name": "ticket",
+    "class": "icon-ticket"
+  },
+  {
+    "name": "timer-off",
+    "class": "icon-timer-off"
+  },
+  {
+    "name": "timer-reset",
+    "class": "icon-timer-reset"
+  },
+  {
+    "name": "timer",
+    "class": "icon-timer"
+  },
+  {
+    "name": "toggle-left",
+    "class": "icon-toggle-left"
+  },
+  {
+    "name": "toggle-right",
+    "class": "icon-toggle-right"
+  },
+  {
+    "name": "tornado",
+    "class": "icon-tornado"
+  },
+  {
+    "name": "torus",
+    "class": "icon-torus"
+  },
+  {
+    "name": "touchpad-off",
+    "class": "icon-touchpad-off"
+  },
+  {
+    "name": "touchpad",
+    "class": "icon-touchpad"
+  },
+  {
+    "name": "tower-control",
+    "class": "icon-tower-control"
+  },
+  {
+    "name": "toy-brick",
+    "class": "icon-toy-brick"
+  },
+  {
+    "name": "tractor",
+    "class": "icon-tractor"
+  },
+  {
+    "name": "traffic-cone",
+    "class": "icon-traffic-cone"
+  },
+  {
+    "name": "train-front-tunnel",
+    "class": "icon-train-front-tunnel"
+  },
+  {
+    "name": "train-front",
+    "class": "icon-train-front"
+  },
+  {
+    "name": "train-track",
+    "class": "icon-train-track"
+  },
+  {
+    "name": "tram-front",
+    "class": "icon-tram-front"
+  },
+  {
+    "name": "trash-2",
+    "class": "icon-trash-2"
+  },
+  {
+    "name": "trash",
+    "class": "icon-trash"
+  },
+  {
+    "name": "tree-deciduous",
+    "class": "icon-tree-deciduous"
+  },
+  {
+    "name": "tree-palm",
+    "class": "icon-tree-palm"
+  },
+  {
+    "name": "tree-pine",
+    "class": "icon-tree-pine"
+  },
+  {
+    "name": "trees",
+    "class": "icon-trees"
+  },
+  {
+    "name": "trello",
+    "class": "icon-trello"
+  },
+  {
+    "name": "trending-down",
+    "class": "icon-trending-down"
+  },
+  {
+    "name": "trending-up",
+    "class": "icon-trending-up"
+  },
+  {
+    "name": "triangle-alert",
+    "class": "icon-triangle-alert"
+  },
+  {
+    "name": "triangle-right",
+    "class": "icon-triangle-right"
+  },
+  {
+    "name": "triangle",
+    "class": "icon-triangle"
+  },
+  {
+    "name": "trophy",
+    "class": "icon-trophy"
+  },
+  {
+    "name": "truck",
+    "class": "icon-truck"
+  },
+  {
+    "name": "turtle",
+    "class": "icon-turtle"
+  },
+  {
+    "name": "tv-minimal-play",
+    "class": "icon-tv-minimal-play"
+  },
+  {
+    "name": "tv-minimal",
+    "class": "icon-tv-minimal"
+  },
+  {
+    "name": "tv",
+    "class": "icon-tv"
+  },
+  {
+    "name": "twitch",
+    "class": "icon-twitch"
+  },
+  {
+    "name": "twitter",
+    "class": "icon-twitter"
+  },
+  {
+    "name": "type-outline",
+    "class": "icon-type-outline"
+  },
+  {
+    "name": "type",
+    "class": "icon-type"
+  },
+  {
+    "name": "umbrella-off",
+    "class": "icon-umbrella-off"
+  },
+  {
+    "name": "umbrella",
+    "class": "icon-umbrella"
+  },
+  {
+    "name": "underline",
+    "class": "icon-underline"
+  },
+  {
+    "name": "undo-2",
+    "class": "icon-undo-2"
+  },
+  {
+    "name": "undo-dot",
+    "class": "icon-undo-dot"
+  },
+  {
+    "name": "undo",
+    "class": "icon-undo"
+  },
+  {
+    "name": "unfold-horizontal",
+    "class": "icon-unfold-horizontal"
+  },
+  {
+    "name": "unfold-vertical",
+    "class": "icon-unfold-vertical"
+  },
+  {
+    "name": "ungroup",
+    "class": "icon-ungroup"
+  },
+  {
+    "name": "university",
+    "class": "icon-university"
+  },
+  {
+    "name": "unlink-2",
+    "class": "icon-unlink-2"
+  },
+  {
+    "name": "unlink",
+    "class": "icon-unlink"
+  },
+  {
+    "name": "unplug",
+    "class": "icon-unplug"
+  },
+  {
+    "name": "upload",
+    "class": "icon-upload"
+  },
+  {
+    "name": "usb",
+    "class": "icon-usb"
+  },
+  {
+    "name": "user-check",
+    "class": "icon-user-check"
+  },
+  {
+    "name": "user-cog",
+    "class": "icon-user-cog"
+  },
+  {
+    "name": "user-minus",
+    "class": "icon-user-minus"
+  },
+  {
+    "name": "user-pen",
+    "class": "icon-user-pen"
+  },
+  {
+    "name": "user-plus",
+    "class": "icon-user-plus"
+  },
+  {
+    "name": "user-round-check",
+    "class": "icon-user-round-check"
+  },
+  {
+    "name": "user-round-cog",
+    "class": "icon-user-round-cog"
+  },
+  {
+    "name": "user-round-minus",
+    "class": "icon-user-round-minus"
+  },
+  {
+    "name": "user-round-pen",
+    "class": "icon-user-round-pen"
+  },
+  {
+    "name": "user-round-plus",
+    "class": "icon-user-round-plus"
+  },
+  {
+    "name": "user-round-search",
+    "class": "icon-user-round-search"
+  },
+  {
+    "name": "user-round-x",
+    "class": "icon-user-round-x"
+  },
+  {
+    "name": "user-round",
+    "class": "icon-user-round"
+  },
+  {
+    "name": "user-search",
+    "class": "icon-user-search"
+  },
+  {
+    "name": "user-x",
+    "class": "icon-user-x"
+  },
+  {
+    "name": "user",
+    "class": "icon-user"
+  },
+  {
+    "name": "users-round",
+    "class": "icon-users-round"
+  },
+  {
+    "name": "users",
+    "class": "icon-users"
+  },
+  {
+    "name": "utensils-crossed",
+    "class": "icon-utensils-crossed"
+  },
+  {
+    "name": "utensils",
+    "class": "icon-utensils"
+  },
+  {
+    "name": "utility-pole",
+    "class": "icon-utility-pole"
+  },
+  {
+    "name": "variable",
+    "class": "icon-variable"
+  },
+  {
+    "name": "vault",
+    "class": "icon-vault"
+  },
+  {
+    "name": "vegan",
+    "class": "icon-vegan"
+  },
+  {
+    "name": "venetian-mask",
+    "class": "icon-venetian-mask"
+  },
+  {
+    "name": "vibrate-off",
+    "class": "icon-vibrate-off"
+  },
+  {
+    "name": "vibrate",
+    "class": "icon-vibrate"
+  },
+  {
+    "name": "video-off",
+    "class": "icon-video-off"
+  },
+  {
+    "name": "video",
+    "class": "icon-video"
+  },
+  {
+    "name": "videotape",
+    "class": "icon-videotape"
+  },
+  {
+    "name": "view",
+    "class": "icon-view"
+  },
+  {
+    "name": "voicemail",
+    "class": "icon-voicemail"
+  },
+  {
+    "name": "volume-1",
+    "class": "icon-volume-1"
+  },
+  {
+    "name": "volume-2",
+    "class": "icon-volume-2"
+  },
+  {
+    "name": "volume-x",
+    "class": "icon-volume-x"
+  },
+  {
+    "name": "volume",
+    "class": "icon-volume"
+  },
+  {
+    "name": "vote",
+    "class": "icon-vote"
+  },
+  {
+    "name": "wallet-cards",
+    "class": "icon-wallet-cards"
+  },
+  {
+    "name": "wallet-minimal",
+    "class": "icon-wallet-minimal"
+  },
+  {
+    "name": "wallet",
+    "class": "icon-wallet"
+  },
+  {
+    "name": "wallpaper",
+    "class": "icon-wallpaper"
+  },
+  {
+    "name": "wand-sparkles",
+    "class": "icon-wand-sparkles"
+  },
+  {
+    "name": "wand",
+    "class": "icon-wand"
+  },
+  {
+    "name": "warehouse",
+    "class": "icon-warehouse"
+  },
+  {
+    "name": "washing-machine",
+    "class": "icon-washing-machine"
+  },
+  {
+    "name": "watch",
+    "class": "icon-watch"
+  },
+  {
+    "name": "waves",
+    "class": "icon-waves"
+  },
+  {
+    "name": "waypoints",
+    "class": "icon-waypoints"
+  },
+  {
+    "name": "webcam",
+    "class": "icon-webcam"
+  },
+  {
+    "name": "webhook-off",
+    "class": "icon-webhook-off"
+  },
+  {
+    "name": "webhook",
+    "class": "icon-webhook"
+  },
+  {
+    "name": "weight",
+    "class": "icon-weight"
+  },
+  {
+    "name": "wheat-off",
+    "class": "icon-wheat-off"
+  },
+  {
+    "name": "wheat",
+    "class": "icon-wheat"
+  },
+  {
+    "name": "whole-word",
+    "class": "icon-whole-word"
+  },
+  {
+    "name": "wifi-high",
+    "class": "icon-wifi-high"
+  },
+  {
+    "name": "wifi-low",
+    "class": "icon-wifi-low"
+  },
+  {
+    "name": "wifi-off",
+    "class": "icon-wifi-off"
+  },
+  {
+    "name": "wifi-zero",
+    "class": "icon-wifi-zero"
+  },
+  {
+    "name": "wifi",
+    "class": "icon-wifi"
+  },
+  {
+    "name": "wind",
+    "class": "icon-wind"
+  },
+  {
+    "name": "wine-off",
+    "class": "icon-wine-off"
+  },
+  {
+    "name": "wine",
+    "class": "icon-wine"
+  },
+  {
+    "name": "workflow",
+    "class": "icon-workflow"
+  },
+  {
+    "name": "worm",
+    "class": "icon-worm"
+  },
+  {
+    "name": "wrap-text",
+    "class": "icon-wrap-text"
+  },
+  {
+    "name": "wrench",
+    "class": "icon-wrench"
+  },
+  {
+    "name": "x",
+    "class": "icon-x"
+  },
+  {
+    "name": "youtube",
+    "class": "icon-youtube"
+  },
+  {
+    "name": "zap-off",
+    "class": "icon-zap-off"
+  },
+  {
+    "name": "zap",
+    "class": "icon-zap"
+  },
+  {
+    "name": "zoom-in",
+    "class": "icon-zoom-in"
+  },
+  {
+    "name": "zoom-out",
+    "class": "icon-zoom-out"
+  }
+]
