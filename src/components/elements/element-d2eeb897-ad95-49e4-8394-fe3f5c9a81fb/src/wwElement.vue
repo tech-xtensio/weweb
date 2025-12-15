@@ -3,6 +3,7 @@
     <ag-grid-vue
       :rowData="rowData"
       :columnDefs="columnDefs"
+      :initial-state="initialState"
       :defaultColDef="defaultColDef"
       :domLayout="content.layout === 'auto' ? 'autoHeight' : 'normal'"
       :style="style"
@@ -11,13 +12,20 @@
       :theme="theme"
       :getRowId="getRowId"
       :pagination="content.pagination"
-      :paginationPageSize="content.paginationPageSize || 10"
-      :paginationPageSizeSelector="false"
+      :paginationPageSize="
+        forcedPaginationPageSize
+          ? 0
+          : paginationPageSizeSelector
+          ? paginationPageSizeSelector[0]
+          : content.paginationPageSize
+      "
+      :paginationPageSizeSelector="paginationPageSizeSelector"
       :suppressMovableColumns="!content.movableColumns"
       :columnHoverHighlight="content.columnHoverHighlight"
       :locale-text="localeText"
       enableCellTextSelection
       ensureDomOrder
+      :row-drag-managed="true"
       @grid-ready="onGridReady"
       @row-selected="onRowSelected"
       @selection-changed="onSelectionChanged"
@@ -25,13 +33,25 @@
       @filter-changed="onFilterChanged"
       @sort-changed="onSortChanged"
       @row-clicked="onRowClicked"
+      @row-drag-end="onRowDragged"
+      @row-drag-enter="onRowDragEnter"
+      @column-moved="onColumnMoved"
+      @pagination-changed="onPaginationChanged"
     >
     </ag-grid-vue>
   </div>
 </template>
 
 <script>
-import { shallowRef, watchEffect, computed } from "vue";
+import {
+  shallowRef,
+  watchEffect,
+  computed,
+  inject,
+  watch,
+  nextTick,
+  ref,
+} from "vue";
 import { AgGridVue } from "ag-grid-vue3";
 import {
   AllCommunityModule,
@@ -48,8 +68,6 @@ import {
 import ActionCellRenderer from "./components/ActionCellRenderer.vue";
 import ImageCellRenderer from "./components/ImageCellRenderer.vue";
 import WewebCellRenderer from "./components/WewebCellRenderer.vue";
-
-console.log("AG Grid version:", AG_GRID_LOCALE_FR);
 
 // TODO: maybe register less modules
 // TODO: maybe register modules per grid instead of globally
@@ -101,22 +119,157 @@ export default {
         defaultValue: {},
         readonly: true,
       });
+    const { value: columnOrder, setValue: setColumnOrder } =
+      wwLib.wwVariable.useComponentVariable({
+        uid: props.uid,
+        name: "columnOrder",
+        type: "array",
+        defaultValue: [],
+        readonly: true,
+      });
+
+    const { value: data, setValue: setData } =
+      wwLib.wwVariable.useComponentVariable({
+        uid: props.uid,
+        name: "data",
+        type: "object",
+        defaultValue: {
+          allData: [],
+          total: 0,
+          sortedFilteredData: [],
+          totalSortedFilteredData: 0,
+          perPageTotal: 0,
+          totalPages: 0,
+          displayedData: [],
+          totalDisplayedRecords: 0,
+        },
+        readonly: true,
+      });
 
     const onGridReady = (params) => {
       gridApi.value = params.api;
+      const columns = params.api.getAllGridColumns();
+      setColumnOrder(columns.map((col) => col.getColId()));
     };
 
+    let initialFilter = "";
+    let initialSort = "";
+
     watchEffect(() => {
+      // Both initial filters and sort should be set here to avoid conflicts with column state application
+      // We keep track of previous values to avoid reinitializing one when only the other changes
       if (!gridApi.value) return;
-      if (props.content.initialFilters) {
+      if (
+        props.content.initialFilters &&
+        initialFilter !== JSON.stringify(props.content.initialFilters)
+      ) {
         gridApi.value.setFilterModel(props.content.initialFilters);
+        initialFilter = JSON.stringify(props.content.initialFilters);
       }
-      if (props.content.initialSort) {
+      if (
+        props.content.initialSort &&
+        initialSort !== JSON.stringify(props.content.initialSort)
+      ) {
         gridApi.value.applyColumnState({
           state: props.content.initialSort || [],
           defaultState: { sort: null },
         });
+        initialSort = JSON.stringify(props.content.initialSort);
       }
+    });
+
+    watchEffect(() => {
+      if (!gridApi.value) return;
+      if (props.content.initialColumnsOrder) {
+        gridApi.value.applyColumnState({
+          state: props.content.initialColumnsOrder.map((colId) => ({ colId })),
+          applyOrder: true,
+        });
+      }
+    });
+
+    // Wrapper to not compute variables too often
+    let rafId = null;
+    const scheduleVariableUpdate = () => {
+      if (rafId !== null) return;
+      rafId = requestAnimationFrame(() => {
+        rafId = null;
+        updateVariables();
+      });
+    };
+
+    function updateVariables() {
+      if (!gridApi.value) return;
+
+      const dataValue = {
+        allData: data.value.allData,
+        total: data.value.total,
+      };
+
+      const sortedFiltered = [];
+      gridApi.value.forEachNodeAfterFilterAndSort((node) => {
+        sortedFiltered.push(node.data);
+      });
+      dataValue.sortedFilteredData = sortedFiltered;
+      dataValue.totalSortedFilteredData = sortedFiltered.length;
+
+      let displayed = [];
+      if (props.content.pagination) {
+        const pageSize = gridApi.value.paginationGetPageSize();
+        dataValue.perPageTotal = pageSize;
+        dataValue.totalPages = gridApi.value.paginationGetTotalPages();
+        const page = gridApi.value.paginationGetCurrentPage();
+        const totalDisplayed = gridApi.value.getDisplayedRowCount();
+        const start = page * pageSize;
+        const end = Math.min(start + pageSize, totalDisplayed);
+
+        for (let i = start; i < end; i++) {
+          const node = gridApi.value.getDisplayedRowAtIndex(i);
+          displayed.push(node.data);
+        }
+      } else {
+        displayed = sortedFiltered;
+      }
+
+      dataValue.displayedData = displayed;
+      dataValue.totalDisplayedRecords = displayed.length;
+
+      setData(dataValue);
+    }
+
+    const rowData = computed(() => {
+      const data = wwLib.wwUtils.getDataFromCollection(props.content.rowData);
+      return Array.isArray(data) ? data ?? [] : [];
+    });
+
+    watch(
+      rowData,
+      (newVal) => {
+        const dataValue = { ...data.value };
+        dataValue.allData = newVal;
+        dataValue.total = newVal.length;
+        setData(dataValue);
+        scheduleVariableUpdate();
+      },
+      { immediate: true, deep: true }
+    );
+
+    const initialState = computed(() => {
+      const state = {
+        partialColumnState: true,
+      };
+      if (props.content.initialFilters) {
+        state.filter = { filterModel: props.content.initialFilters };
+      }
+      if (props.content.initialSort) {
+        state.sort = { sortModel: props.content.initialSort };
+      }
+      if (props.content.initialColumnsOrder) {
+        state.columnOrder = {
+          orderedColIds: props.content.initialColumnsOrder,
+        };
+      }
+      return state;
     });
 
     const onRowSelected = (event) => {
@@ -124,6 +277,32 @@ export default {
       ctx.emit("trigger-event", {
         name,
         event: { row: event.data },
+      });
+    };
+
+    const onRowDragged = (event) => {
+      const rows = [];
+      event.api.forEachNode((node) => {
+        rows.push(node.data);
+      });
+      ctx.emit("trigger-event", {
+        name: "rowDragged",
+        event: {
+          row: event.node.data,
+          id: event.node.id,
+          targetIndex: event.overIndex,
+          rows,
+        },
+      });
+    };
+
+    const onRowDragEnter = (event) => {
+      ctx.emit("trigger-event", {
+        name: "rowDragStart",
+        event: {
+          row: event.node.data,
+          id: event.node.id,
+        },
       });
     };
 
@@ -145,6 +324,7 @@ export default {
           name: "filterChanged",
           event: filterModel,
         });
+        scheduleVariableUpdate();
       }
     };
 
@@ -160,9 +340,55 @@ export default {
           name: "sortChanged",
           event: state.sort?.sortModel || [],
         });
+        scheduleVariableUpdate();
       }
     };
 
+    const onColumnMoved = (event) => {
+      if (!event.finished || event.source !== "uiColumnMoved") return;
+      const columns = event.api.getAllGridColumns();
+      setColumnOrder(columns.map((col) => col.getColId()));
+      ctx.emit("trigger-event", {
+        name: "columnMoved",
+        event: {
+          toIndex: event.toIndex,
+          columnId: event.column.getColId(),
+          columnsOrder: columns.map((col) => col.getColId()),
+        },
+      });
+    };
+
+    const onPaginationChanged = (event) => {
+      scheduleVariableUpdate();
+    };
+
+    watch(
+      () => props.content.pagination,
+      () => {
+        scheduleVariableUpdate();
+      }
+    );
+
+
+    // Hack to force pagination page size update when changing pagination selector mode
+    const forcedPaginationPageSize = ref(false);
+    watch(
+      () => props.content.hasPaginationSelector,
+      (newVal, oldVal) => {
+        if (oldVal === "multiple" && newVal !== "multiple") {
+          forcedPaginationPageSize.value = true;
+          nextTick().then(() => {
+            forcedPaginationPageSize.value = false;
+          });
+        }
+      }
+    );
+
+    function refreshData() {
+      nextTick(() => {
+        gridApi.value?.refreshCells();
+      });
+    }
 
     return {
       resolveMappingFormula,
@@ -172,6 +398,7 @@ export default {
       gridApi,
       onFilterChanged,
       onSortChanged,
+      onPaginationChanged,
       localeText: computed(() => {
         switch (props.content.lang) {
           case "fr":
@@ -191,95 +418,109 @@ export default {
             AG_GRID_LOCALE_EN;
         }
       }),
+      forcedPaginationPageSize,
+      onRowDragged,
+      onRowDragEnter,
+      onColumnMoved,
+      initialState,
+      refreshData,
+      rowData,
     };
   },
   computed: {
-    rowData() {
-      const data = wwLib.wwUtils.getDataFromCollection(this.content.rowData);
-      return Array.isArray(data) ? data ?? [] : [];
-    },
     defaultColDef() {
       return {
         editable: false,
         resizable: this.content.resizableColumns,
+        autoHeaderHeight: this.content.headerHeightMode === "auto",
+        wrapHeaderText: this.content.headerHeightMode === "auto",
+        cellClass:
+          this.content.cellAlignmentMode === "custom"
+            ? `-${this.content.cellAlignment || "left"} ||`
+            : null,
       };
     },
     columnDefs() {
-      return this.content.columns.map((col) => {
+      const columns = this.content.columns.map((col, index) => {
         const minWidth =
-          !col.minWidth || col.minWidth === "auto"
+          !col?.minWidth || col?.minWidth === "auto"
             ? null
-            : wwLib.wwUtils.getLengthUnit(col.minWidth)?.[0];
+            : wwLib.wwUtils.getLengthUnit(col?.minWidth)?.[0];
         const maxWidth =
-          !col.maxWidth || col.maxWidth === "auto"
+          !col?.maxWidth || col?.maxWidth === "auto"
             ? null
-            : wwLib.wwUtils.getLengthUnit(col.maxWidth)?.[0];
+            : wwLib.wwUtils.getLengthUnit(col?.maxWidth)?.[0];
         const width =
-          !col.width || col.width === "auto" || col.widthAlgo === "flex"
+          !col?.width || col?.width === "auto" || col?.widthAlgo === "flex"
             ? null
-            : wwLib.wwUtils.getLengthUnit(col.width)?.[0];
-        const flex = col.widthAlgo === "flex" ? col.flex ?? 1 : null;
+            : wwLib.wwUtils.getLengthUnit(col?.width)?.[0];
+        const flex = col?.widthAlgo === "flex" ? col?.flex ?? 1 : null;
         const commonProperties = {
           minWidth,
           maxWidth,
-          pinned: col.pinned === "none" ? false : col.pinned,
+          pinned: col?.pinned === "none" ? false : col?.pinned,
           width,
           flex,
-          hide: !!col.hide,
+          hide: !!col?.hide,
+          headerClass: col.headerAlignment ? `-${col.headerAlignment}` : null,
+          ...(this.content.cellAlignmentMode !== "custom"
+            ? { cellClass: col.cellAlignment ? `-${col.cellAlignment}` : null }
+            : {}),
         };
-        switch (col.cellDataType) {
+        switch (col?.cellDataType) {
           case "action": {
             return {
               ...commonProperties,
-              headerName: col.headerName,
+              headerName: col?.headerName,
               cellRenderer: "ActionCellRenderer",
               cellRendererParams: {
-                name: col.actionName,
-                label: col.actionLabel,
+                name: col?.actionName,
+                label: col?.actionLabel,
                 trigger: this.onActionTrigger,
                 withFont: !!this.content.actionFont,
               },
               sortable: false,
               filter: false,
+              colId: col?.actionName,
             };
           }
           case "custom":
             return {
               ...commonProperties,
-              headerName: col.headerName,
-              field: col.field,
+              headerName: col?.headerName,
+              field: col?.field,
               cellRenderer: "WewebCellRenderer",
               cellRendererParams: {
-                containerId: col.containerId,
+                containerId: col?.containerId,
               },
-              sortable: col.sortable,
-              filter: col.filter,
+              sortable: col?.sortable,
+              filter: col?.filter,
             };
           case "image": {
             return {
               ...commonProperties,
-              headerName: col.headerName,
-              field: col.field,
+              headerName: col?.headerName,
+              field: col?.field,
               cellRenderer: "ImageCellRenderer",
               cellRendererParams: {
-                width: col.imageWidth,
-                height: col.imageHeight,
+                width: col?.imageWidth,
+                height: col?.imageHeight,
               },
             };
           }
           default: {
             const result = {
               ...commonProperties,
-              headerName: col.headerName,
-              field: col.field,
-              sortable: col.sortable,
-              filter: col.filter,
-              editable: col.editable,
+              headerName: col?.headerName,
+              field: col?.field,
+              sortable: col?.sortable,
+              filter: col?.filter,
+              editable: col?.editable,
             };
-            if (col.useCustomLabel) {
+            if (col?.useCustomLabel) {
               result.valueFormatter = (params) => {
                 return this.resolveMappingFormula(
-                  col.displayLabelFormula,
+                  col?.displayLabelFormula,
                   params.value
                 );
               };
@@ -288,6 +529,12 @@ export default {
           }
         }
       });
+
+      if (this.content.rowReorder && columns[0]) {
+        columns[0].rowDrag = true;
+      }
+
+      return columns;
     },
     rowSelection() {
       if (this.content.rowSelection === "multiple") {
@@ -345,6 +592,10 @@ export default {
         headerFontSize: this.content.headerFontSize,
         headerFontFamily: this.content.headerFontFamily,
         headerFontWeight: this.content.headerFontWeight,
+        headerHeight:
+          this.content.headerHeightMode !== "auto"
+            ? this.content.headerHeight
+            : undefined,
         borderColor: this.content.borderColor,
         cellTextColor: this.content.cellColor,
         cellFontFamily: this.content.cellFontFamily,
@@ -370,6 +621,21 @@ export default {
     isEditing() {
       // eslint-disable-next-line no-unreachable
       return false;
+    },
+    paginationPageSizeSelector() {
+      if (
+        !this.content.pagination ||
+        this.content.hasPaginationSelector !== "multiple"
+      ) {
+        return false;
+      }
+      if (
+        !Array.isArray(this.content.paginationPageSizeSelector) ||
+        this.content.paginationPageSizeSelector.length === 0
+      ) {
+        return false;
+      }
+      return this.content.paginationPageSizeSelector;
     },
   },
   methods: {
@@ -404,6 +670,45 @@ export default {
         },
       });
     },
+    resetFilters() {
+      if (!this.gridApi) return;
+      this.gridApi.setFilterModel(null);
+    },
+    resetSort() {
+      if (!this.gridApi) return;
+      this.gridApi.applyColumnState({
+        state: [],
+        defaultState: { sort: null },
+      });
+    },
+    deselectAll() {
+      if (!this.gridApi) return;
+      this.gridApi.deselectAll();
+    },
+    selectAll(mode) {
+      if (!this.gridApi) return;
+      if (this.content.rowSelection !== "multiple") {
+        wwLib.logStore.warning(
+          "Select all will have no effect, as row selection is not set to multiple"
+        );
+        return;
+      }
+      this.gridApi.selectAll(mode || this.content.selectAll || "all");
+    },
+    selectRow(rowId) {
+      if (!this.gridApi) return;
+      const rowNode = this.gridApi.getRowNode(rowId);
+      if (rowNode) {
+        rowNode.setSelected(true);
+      }
+    },
+    deselectRow(rowId) {
+      if (!this.gridApi) return;
+      const rowNode = this.gridApi.getRowNode(rowId);
+      if (rowNode) {
+        rowNode.setSelected(false);
+      }
+    },
   },
 };
 </script>
@@ -411,8 +716,46 @@ export default {
 <style scoped lang="scss">
 .ww-datagrid {
   position: relative;
-  :deep(.ag-cell-wrapper), :deep(.ag-cell-value) {
+  :deep(.ag-cell-wrapper),
+  :deep(.ag-cell-value) {
     height: 100%;
+  }
+  :deep(.ag-header-cell) {
+    &.-center .ag-header-cell-label {
+      justify-content: center;
+    }
+    &.-right {
+      .ag-header-cell-label {
+        justify-content: flex-end;
+      }
+      .ag-header-cell-filter-button {
+        margin-left: 4px;
+      }
+    }
+    &.-left .ag-header-cell-label {
+      justify-content: flex-start;
+    }
+  }
+  :deep(.ag-cell) {
+    .ag-cell-value {
+      display: flex;
+    }
+
+    &.-right {
+      .ag-cell-value {
+        justify-content: flex-end;
+      }
+    }
+    &.-center {
+      .ag-cell-value {
+        justify-content: center;
+      }
+    }
+    &.-left {
+      .ag-cell-value {
+        justify-content: flex-start;
+      }
+    }
   }
 }
 </style>

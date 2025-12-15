@@ -5,69 +5,121 @@ export default {
     },
     icon: "table",
     customStylePropertiesOrder: [
-      ["layout", "height", "textColor", "borderColor", "wrapperBorderRadius"],
-      [
-        "headerTitle",
-        "headerBackgroundColor",
-        "headerTextColor",
-        "headerFontWeight",
-        "headerFontSize",
-        "headerFontFamily",
-      ],
-      [
-        "rowTitle",
-        "rowBackgroundColor",
-        "rowAlternateColor",
-        "rowHoverColor",
-        "rowVerticalPaddingScale",
-      ],
-      ["columnTitle", "columnHoverHighlight", "columnHoverColor"],
-      [
-        "cellTitle",
-        "cellColor",
-        "cellFontFamily",
-        "cellFontSize",
-        "cellSelectionBorderColor",
-      ],
-      ["menuTitle", "menuTextColor", "menuBackgroundColor"],
-      [
-        "selectionTitle",
-        "selectedRowBackgroundColor",
-        "selectionCheckboxColor",
-        "focusShadow",
-        "checkboxUncheckedBorderColor",
-      ],
-      [
-        "actionTitle",
-        "actionColor",
-        "actionBackgroundColor",
-        "actionPadding",
-        "actionBorder",
-        "actionBorderRadius",
-        "actionFont",
-        "actionFontSize",
-        "actionFontFamily",
-        "actionFontWeight",
-        "actionFontStyle",
-        "actionLineHeight",
-      ],
+      {
+        label: "General",
+        isCollapsible: true,
+        properties: [
+          "layout",
+          "height",
+          "textColor",
+          "borderColor",
+          "wrapperBorderRadius",
+        ],
+      },
+      {
+        label: "Header",
+        isCollapsible: true,
+        properties: [
+          "headerBackgroundColor",
+          "headerTextColor",
+          "headerFontWeight",
+          "headerFontSize",
+          "headerFontFamily",
+          "headerHeightMode",
+          "headerHeight",
+        ],
+      },
+      {
+        label: "Row",
+        isCollapsible: true,
+        properties: [
+          "rowBackgroundColor",
+          "rowAlternateColor",
+          "rowHoverColor",
+          "rowVerticalPaddingScale",
+        ],
+      },
+      {
+        label: "Column",
+        isCollapsible: true,
+        properties: ["columnHoverHighlight", "columnHoverColor"],
+      },
+      {
+        label: "Cell",
+        isCollapsible: true,
+        properties: [
+          "cellColor",
+          "cellFontFamily",
+          "cellFontSize",
+          "cellSelectionBorderColor",
+          "cellAlignmentMode",
+          "cellAlignment",
+        ],
+      },
+      {
+        label: "Menu",
+        isCollapsible: true,
+        properties: ["menuTextColor", "menuBackgroundColor"],
+      },
+      {
+        label: "Selection",
+        isCollapsible: true,
+        properties: [
+          "selectedRowBackgroundColor",
+          "selectionCheckboxColor",
+          "focusShadow",
+          "checkboxUncheckedBorderColor",
+        ],
+      },
+      {
+        label: "Action",
+        isCollapsible: true,
+        properties: [
+          "actionColor",
+          "actionBackgroundColor",
+          "actionPadding",
+          "actionBorder",
+          "actionBorderRadius",
+          "actionFont",
+          "actionFontSize",
+          "actionFontFamily",
+          "actionFontWeight",
+          "actionFontStyle",
+          "actionLineHeight",
+        ],
+      },
     ],
     customSettingsPropertiesOrder: [
       "rowData",
       "idFormula",
       "generateColumns",
       "columns",
-      ["pagination", "paginationPageSize"],
-      [
-        "rowSelection",
-        "enableClickSelection",
-        "disableCheckboxes",
-        "selectAll",
-      ],
+      {
+        label: "Pagination",
+        isCollapsible: true,
+        properties: [
+          "pagination",
+          "hasPaginationSelector",
+          "paginationPageSize",
+          "paginationPageSizeSelector",
+        ],
+      },
+      {
+        label: "Selection",
+        properties: [
+          "rowSelection",
+          "enableClickSelection",
+          "disableCheckboxes",
+          "selectAll",
+        ],
+      },
       "movableColumns",
       "resizableColumns",
+      "rowReorder",
+      "reorderInfoBox",
       "initialFilters",
       "initialSort",
+      "initialColumnsOrder",
       ["lang", "localeText"],
     ],
   },
@@ -125,43 +177,83 @@ export default {
       },
       getTestEvent: "getRowClickedTestEvent",
     },
+    {
+      name: "rowDragStart",
+      label: { en: "On Row Drag Start" },
+      event: {
+        row: null,
+        id: 0,
+      },
+      getTestEvent: "getRowDragStartTestEvent",
+    },
+    {
+      name: "rowDragged",
+      label: { en: "On Row Dragged" },
+      event: {
+        row: null,
+        id: 0,
+        targetIndex: 0,
+        rows: [],
+      },
+      getTestEvent: "getRowDraggedTestEvent",
+    },
+    {
+      name: "columnMoved",
+      label: { en: "On Column Moved" },
+      event: {
+        columnId: null,
+        toIndex: 0,
+        columnsOrder: [],
+      },
+      getTestEvent: "getColumnMovedTestEvent",
+    },
+  ],
+  actions: [
+    { label: "Reset filters", action: "resetFilters" },
+    { label: "Reset sort", action: "resetSort" },
+    {
+      label: "Select all",
+      action: "selectAll",
+      args: [
+        {
+          name: "mode",
+          type: "select",
+          options: [
+            { value: null, label: "Grid behavior", default: true },
+            { value: "all", label: "All rows" },
+            { value: "filtered", label: "Filtered rows" },
+            { value: "currentPage", label: "Current page rows" },
+          ],
+        },
+      ],
+    },
+    { label: "Deselect all", action: "deselectAll" },
+    {
+      label: "Select row",
+      action: "selectRow",
+      args: [
+        {
+          name: "Row id",
+          type: "string",
+        },
+      ],
+    },
+    {
+      label: "Deselect row",
+      action: "deselectRow",
+      args: [
+        {
+          name: "Row id",
+          type: "string",
+        },
+      ],
+    },
+    {
+      label: "Force Datagrid refresh",
+      action: "refreshData",
+    }
   ],
   properties: {
-    headerTitle: {
-      type: "Title",
-      label: "Header",
-      editorOnly: true,
-    },
-    rowTitle: {
-      type: "Title",
-      label: "Row",
-      editorOnly: true,
-    },
-    columnTitle: {
-      type: "Title",
-      label: "Column",
-      editorOnly: true,
-    },
-    cellTitle: {
-      type: "Title",
-      label: "Cell",
-      editorOnly: true,
-    },
-    menuTitle: {
-      type: "Title",
-      label: "Menu",
-      editorOnly: true,
-    },
-    actionTitle: {
-      type: "Title",
-      label: "Action",
-      editorOnly: true,
-    },
-    selectionTitle: {
-      type: "Title",
-      label: "Selection",
-      editorOnly: true,
-    },
     layout: {
       type: "TextSelect",
       label: "Height Mode",
@@ -294,6 +386,37 @@ export default {
         type: "string",
         cssSupports: "font-family",
       },
+    },
+    headerHeightMode: {
+      type: "TextSelect",
+      options: {
+        options: [
+          { value: null, label: "Fixed", default: true },
+          { value: "auto", label: "Auto" },
+        ],
+      },
+      label: "Height mode",
+      responsive: true,
+      bindable: true,
+      states: true,
+      classes: true,
+    },
+    headerHeight: {
+      label: { en: "Height" },
+      type: "Length",
+      options: {
+        noRange: true,
+        unitChoices: [
+          { value: "px", label: "px", default: true },
+          { value: "em", label: "em", digits: 3, step: 0.1 },
+          { value: "rem", label: "rem", digits: 3, step: 0.1 },
+        ],
+      },
+      responsive: true,
+      states: true,
+      classes: true,
+      bindable: true,
+      hidden: (content) => content.headerHeightMode === "auto",
     },
     borderColor: {
       type: "Color",
@@ -766,6 +889,43 @@ export default {
       bindable: true,
       defaultValue: [],
     },
+    cellAlignmentMode: {
+      label: "Alignment Mode",
+      type: "TextSelect",
+      options: {
+        options: [
+          { value: "inherit", label: "Same as column", default: true },
+          { value: "custom", label: "Custom" },
+        ],
+      },
+    },
+    cellAlignment: {
+      type: "TextRadioGroup",
+      label: "Alignment",
+      options: {
+        choices: [
+          {
+            value: "left",
+            title: "Left",
+            icon: "align-left",
+            default: true,
+          },
+          { value: "center", title: "Center", icon: "align-center" },
+          { value: "right", title: "Right", icon: "align-right" },
+        ],
+      },
+      responsive: true,
+      states: true,
+      classes: true,
+      bindable: true,
+      section: "style",
+      bindingValidation: {
+        type: "string",
+        enum: ["left", "center", "right"],
+        tooltip: "Cell alignment: left, center, or right",
+      },
+      hidden: (content) => content.cellAlignmentMode !== "custom",
+    },
     idFormula: {
       type: "Formula",
       label: "Unique Row Id",
@@ -803,6 +963,7 @@ export default {
             wwProps,
             array
           ) => ({
+            singleLine: true,
             item: {
               headerName: {
                 label: "Header Name",
@@ -864,7 +1025,6 @@ export default {
               },
               widthAlgo: {
                 type: "TextRadioGroup",
-                label: "Width",
                 options: {
                   choices: [
                     { value: "fixed", label: "Fixed", default: true },
@@ -917,6 +1077,58 @@ export default {
                   ],
                 },
               },
+              headerAlignment: {
+                type: "TextRadioGroup",
+                label: "Header Alignment",
+                options: {
+                  choices: [
+                    {
+                      value: "left",
+                      title: "Left",
+                      icon: "align-left",
+                      default: true,
+                    },
+                    { value: "center", title: "Center", icon: "align-center" },
+                    { value: "right", title: "Right", icon: "align-right" },
+                  ],
+                },
+                responsive: true,
+                states: true,
+                classes: true,
+                bindable: true,
+                section: "style",
+                bindingValidation: {
+                  type: "string",
+                  enum: ["left", "center", "right"],
+                  tooltip: "Header alignment: left, center, or right",
+                },
+              },
+              cellAlignment: {
+                type: "TextRadioGroup",
+                label: "Cell Alignment",
+                options: {
+                  choices: [
+                    {
+                      value: "left",
+                      title: "Left",
+                      icon: "align-left",
+                      default: true,
+                    },
+                    { value: "center", title: "Center", icon: "align-center" },
+                    { value: "right", title: "Right", icon: "align-right" },
+                  ],
+                },
+                responsive: true,
+                states: true,
+                classes: true,
+                bindable: true,
+                section: "style",
+                bindingValidation: {
+                  type: "string",
+                  enum: ["left", "center", "right"],
+                  tooltip: "Cell alignment: left, center, or right",
+                },
+              },
               pinned: {
                 label: "Pinned",
                 type: "TextRadioGroup",
@@ -952,7 +1164,7 @@ export default {
                 hidden:
                   array?.item?.cellDataType === "action" ||
                   array?.item?.cellDataType === "image",
-                  bindable: true,
+                bindable: true,
               },
               sortable: {
                 label: "Sortable",
@@ -960,7 +1172,7 @@ export default {
                 hidden:
                   array?.item?.cellDataType === "action" ||
                   array?.item?.cellDataType === "image",
-                  bindable: true,
+                bindable: true,
               },
               actionName: {
                 label: "Action Name",
@@ -989,6 +1201,41 @@ export default {
                 hidden: array?.item?.cellDataType !== "image",
               },
             },
+            propertiesOrder: [
+              "headerName",
+              "field",
+              "cellDataType",
+              "info",
+              "actionName",
+              "actionLabel",
+              "imageWidth",
+              "imageHeight",
+              ,
+              "useCustomLabel",
+              "displayLabelFormula",
+              {
+                label: "Width",
+                isCollapsible: true,
+                properties: [
+                  "widthAlgo",
+                  "flex",
+                  "width",
+                  "minWidth",
+                  "maxWidth",
+                ],
+              },
+              {
+                label: "Configuration",
+                isCollapsible: true,
+                properties: [
+                  "pinned",
+                  "hide",
+                  "editable",
+                  "filter",
+                  "sortable",
+                ],
+              },
+            ],
           }),
         },
         defaultValue: {
@@ -1016,14 +1263,33 @@ export default {
       bindable: true,
       defaultValue: false,
     },
-    paginationPageSize: {
+    hasPaginationSelector: {
       label: { en: "Rows Per Page" },
+      type: "TextSelect",
+      section: "settings",
+      bindable: true,
+      options: {
+        options: [
+          { value: "single", label: "Single", default: true },
+          { value: "multiple", label: "Multiple" },
+        ],
+      },
+    },
+    paginationPageSize: {
       type: "Number",
       section: "settings",
       bindable: true,
       defaultValue: 10,
       options: {
         noRange: true,
+      },
+    },
+    paginationPageSizeSelector: {
+      type: "RawObject",
+      section: "settings",
+      bindable: true,
+      options: {
+        placeholder: "[10, 20, 50, 100]",
       },
     },
     rowSelection: {
@@ -1101,6 +1367,17 @@ export default {
         tooltip: "An array representing the initial sort model",
       },
     },
+    initialColumnsOrder: {
+      label: { en: "Initial Columns Order" },
+      type: "RawObject",
+      section: "settings",
+      bindable: true,
+      defaultValue: null,
+      bindingValidation: {
+        type: "array",
+        tooltip: "An array representing the id of the initial columns order",
+      },
+    },
     lang: {
       label: { en: "Language" },
       type: "TextSelect",
@@ -1129,12 +1406,31 @@ export default {
       label: { en: "Border Radius" },
       type: "Length",
       options: {
-        noRange: true
+        noRange: true,
       },
       bindable: true,
       responsive: true,
       states: true,
       classes: true,
-    }
+    },
+    rowReorder: {
+      label: { en: "Row Reorder" },
+      type: "OnOff",
+      section: "settings",
+      bindable: true,
+      defaultValue: false,
+    },
+    reorderInfoBox: {
+      type: "InfoBox",
+      section: "settings",
+      editorOnly: true,
+      hidden: (content) => !(content.rowReorder && content.pagination),
+      options: {
+        variant: "warning",
+        icon: "warning",
+        title: "Incompatible options",
+        content: `Row reordering is not compatible with pagination. Pagination will be disabled`,
+      },
+    },
   },
 };
