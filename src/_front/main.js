@@ -3,7 +3,7 @@ import axios from 'axios';
 import { VueCookieNext } from 'vue-cookie-next';
 import { isEqual, isEmpty, cloneDeep, get, set, merge } from 'lodash';
 
- 
+
 /* wwFront:start */
 import { createHead } from '@vueuse/head';
 /* wwFront:end */
@@ -49,12 +49,12 @@ if ('serviceWorker' in navigator) {
     }
 }
 /* wwFront:end */
- 
+
 import wwElements from '@/_front/components/index.js';
 import { addMediaQueriesListener } from '../helpers/mediaQueriesListener.js';
 import globalServices from '@/_common/plugins/globalServices.js';
 
- 
+
 import '@/assets/css';
 
 //Set window libraries
@@ -68,7 +68,7 @@ window._ = {
 };
 window.axios = axios.create({});
 
- 
+
 const app = createApp(App);
 
 const init = async function () {
@@ -83,8 +83,8 @@ const init = async function () {
     app.use(createHead());
     /* wwFront:end */
 
- 
- 
+
+
     await wwLib.initFront({ store, router });
 
     app.use(router);
@@ -108,7 +108,64 @@ const init = async function () {
     wwLib.isMounted = true;
 };
 
+
 init();
+
+// Wrap Mapbox to prevent "Container not found" errors
+if (typeof window.mapboxgl !== 'undefined') {
+    const OriginalMap = window.mapboxgl.Map;
+    window.mapboxgl.Map = function (options) {
+        // Check if container exists before creating map
+        const container = typeof options.container === 'string'
+            ? document.getElementById(options.container)
+            : options.container;
+
+        if (!container) {
+            console.warn(`[Mapbox] Skipping map initialization - container '${options.container}' not found`);
+            // Return a comprehensive mock object to prevent further errors
+            const mockMap = {
+                on: () => mockMap,
+                off: () => mockMap,
+                once: () => mockMap,
+                remove: () => { },
+                resize: () => { },
+                getBounds: () => ({}),
+                getCenter: () => ({ lng: 0, lat: 0 }),
+                getZoom: () => 0,
+                setCenter: () => mockMap,
+                setZoom: () => mockMap,
+                addControl: () => mockMap,
+                removeControl: () => mockMap,
+                addLayer: () => mockMap,
+                removeLayer: () => mockMap,
+                addSource: () => mockMap,
+                removeSource: () => mockMap,
+                getLayer: () => null,
+                getSource: () => null,
+                flyTo: () => mockMap,
+                jumpTo: () => mockMap,
+                easeTo: () => mockMap,
+                setStyle: () => mockMap,
+                getStyle: () => ({}),
+                isStyleLoaded: () => true,
+                loaded: () => true,
+                fire: () => mockMap,
+                getCanvas: () => document.createElement('canvas'),
+                getCanvasContainer: () => document.createElement('div')
+            };
+            return mockMap;
+        }
+
+        // Container exists, create map normally
+        return new OriginalMap(options);
+    };
+
+    // Copy static methods
+    Object.setPrototypeOf(window.mapboxgl.Map, OriginalMap);
+    Object.keys(OriginalMap).forEach(key => {
+        window.mapboxgl.Map[key] = OriginalMap[key];
+    });
+}
 
 /* wwFront:start */
 wwLib.getFrontWindow().addEventListener('beforeinstallprompt', e => {
@@ -118,3 +175,4 @@ wwLib.getFrontWindow().addEventListener('beforeinstallprompt', e => {
 /* wwFront:end */
 
 export default app;
+
